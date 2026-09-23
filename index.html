@@ -1,0 +1,2192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <!-- PWA & APP SUPPORT MANIFEST LINK -->
+    <link rel="manifest" href="manifest.json">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="application-name" content="Yuvraj Properties">
+    <meta name="apple-mobile-web-app-title" content="Yuvraj Properties">
+    <meta name="theme-color" content="#020617">
+    
+    <!-- PRIMARY HIGH-RANK SEO META -->
+    <title id="metaPageTitle">Yuvraj Properties &amp; Developer | Verified Flats, Luxury Builder Floors for Rent &amp; Sale in Gurugram</title>
+    <meta name="description" id="metaDescription" content="Explore 100% verified 1 BHK, 2 BHK, 3 BHK, 4 BHK flats and luxury builder floors for rent and sale across Gurugram (DLF Phase 1-5, Golf Course Road, Sohna Road, Cyber City). Managed directly by Rahul Kumar. Instant WhatsApp visit booking.">
+    <meta name="keywords" content="Yuvraj Properties, Rahul Kumar Property Gurgaon, Real Estate Gurugram, Flats for rent in Gurgaon, Luxury Builder Floors Gurgaon, Flats for sale in Gurgaon, Property for sale Gurugram, DLF Phase 1 2 3 4 5 flats, Golf Course Road properties, 2 BHK rent Gurgaon, 3 BHK sale Gurugram, Studio apartment Gurgaon rent, Independent floors Gurgaon">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta name="author" content="Rahul Kumar | Yuvraj Properties &amp; Developer">
+    <meta name="publisher" content="Yuvraj Properties &amp; Developer">
+    <meta name="language" content="English">
+    <meta name="revisit-after" content="1 days">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="canonical" href="https://yuvrajproperties.netlify.app/">
+
+    <!-- LOCAL GURUGRAM GEO TARGETING -->
+    <meta name="geo.region" content="IN-HR">
+    <meta name="geo.placename" content="Gurugram, Haryana">
+    <meta name="geo.position" content="28.4595;77.0266">
+    <meta name="ICBM" content="28.4595, 77.0266">
+    <meta name="target" content="all">
+    <meta name="rating" content="general">
+
+    <!-- OPEN GRAPH / SOCIAL SHARE PREVIEW -->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Yuvraj Properties &amp; Developer">
+    <meta property="og:url" content="https://yuvrajproperties.netlify.app/">
+    <meta property="og:title" id="ogTitle" content="Verified Flats &amp; Luxury Floors for Rent &amp; Sale in Gurugram | Yuvraj Properties">
+    <meta property="og:description" id="ogDesc" content="Explore verified rental flats &amp; luxury builder floors for sale across DLF, Golf Course Road &amp; prime Gurugram sectors. Direct booking with Rahul Kumar.">
+    <meta property="og:image" content="https://i.postimg.cc/LXNj4VSd/IMG-20260913-182256.png">
+    <meta property="og:image:secure_url" content="https://i.postimg.cc/LXNj4VSd/IMG-20260913-182256.png">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="600">
+    <meta property="og:image:height" content="600">
+    <meta property="og:image:alt" content="Yuvraj Properties Gurugram Logo">
+    <meta property="og:locale" content="en_IN">
+
+    <!-- TWITTER CARD META TAGS -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Yuvraj Properties &amp; Developer | Gurugram Real Estate">
+    <meta name="twitter:description" content="Verified properties, flats, and luxury floors for rent &amp; sale in Gurugram with direct WhatsApp booking.">
+    <meta name="twitter:image" content="https://i.postimg.cc/LXNj4VSd/IMG-20260913-182256.png">
+
+    <!-- FAVICON -->
+    <link rel="icon" type="image/png" sizes="32x32" href="https://i.postimg.cc/LXNj4VSd/IMG-20260913-182256.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://i.postimg.cc/LXNj4VSd/IMG-20260913-182256.png">
+
+    <!-- SPEED PRECONNECTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="dns-prefetch" href="https://www.youtube-nocookie.com">
+    <link rel="dns-prefetch" href="https://i.postimg.cc">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- APP INSTALL & NOTIFICATION SUPPORT JS -->
+    <script src="app-support.js" defer></script>
+
+    <style>
+        :root { 
+            --primary: #c5a059; 
+            --primary-glow: rgba(197, 160, 89, 0.35);
+            --dark: #0f172a; 
+            --accent: #f59e0b; 
+            --bg: #020617; 
+            --card-bg: #1e293b; 
+            --text-main: #f8fafc; 
+            --text-dim: #94a3b8;
+            --red: #ef4444;
+            --green: #22c55e;
+            --blue: #38bdf8;
+            --purple: #a855f7;
+        }
+        
+        *, *::before, *::after { 
+            box-sizing: border-box; margin: 0; padding: 0; 
+            font-family: 'Poppins', sans-serif;
+            -webkit-tap-highlight-color: transparent !important;
+            outline: none;
+        }
+        body { background: var(--bg); color: var(--text-main); overflow-x: hidden; -webkit-font-smoothing: antialiased; }
+        a, button, input, select { -webkit-tap-highlight-color: transparent !important; }
+
+        /* BRAND SPLASH SCREEN OVERLAY */
+        #brandSplashScreen {
+            position: fixed; inset: 0; background: var(--bg); z-index: 999999;
+            display: flex; flex-direction: column; align-items: center; justify-content: center;
+            transition: opacity 0.4s ease, visibility 0.4s ease;
+        }
+        .splash-logo-wrap {
+            width: 90px; height: 90px; border-radius: 50%; border: 3px solid var(--primary);
+            overflow: hidden; background: #fff; display: flex; align-items: center; justify-content: center;
+            box-shadow: 0 0 30px var(--primary-glow); animation: pulseLogo 1.2s infinite alternate;
+            margin-bottom: 16px;
+        }
+        .splash-logo-wrap img { width: 100%; height: 100%; object-fit: cover; }
+        .splash-brand-title { font-size: 16px; font-weight: 800; color: var(--primary); text-transform: uppercase; letter-spacing: 1px; }
+        .splash-brand-sub { font-size: 11px; color: var(--text-dim); margin-top: 4px; letter-spacing: 0.5px; }
+        @keyframes pulseLogo { 0% { transform: scale(0.95); opacity: 0.85; } 100% { transform: scale(1.05); opacity: 1; box-shadow: 0 0 45px var(--primary); } }
+
+        /* NATIVE SPRING TACTILE ACTIVE FEEL */
+        .card, button, .btn-shortcut, .share-action-row, .seo-tag-pill, .sort-btn, .f-tab-btn, .similar-card, .share-app-node {
+            transition: transform 0.14s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.15s ease, border-color 0.15s ease !important;
+        }
+        .card:active, button:active, .btn-shortcut:active, .similar-card:active {
+            transform: scale(0.97) !important;
+        }
+
+        #offlineBanner {
+            display: none; background: #b91c1c; color: #fff; text-align: center;
+            padding: 7px 12px; font-size: 11px; font-weight: 700; position: sticky; top: 0; z-index: 2000;
+        }
+
+        /* HEADER */
+        header { 
+            background: linear-gradient(135deg, var(--dark) 0%, #1e1b4b 100%); 
+            color: var(--primary); padding: 10px 16px; position: sticky; top: 0; z-index: 100; 
+            display: flex; justify-content: space-between; align-items: center;
+            border-bottom: 1px solid rgba(197, 160, 89, 0.2); min-height: 65px;
+        }
+        .header-left { display: flex; align-items: center; gap: 10px; cursor: pointer; flex: 1; min-width: 0; }
+        .header-logo-circle { width: 42px; height: 42px; border-radius: 50%; border: 2px solid var(--primary); overflow: hidden; background: #fff; display: flex; align-items: center; justify-content: center; flex-shrink: 0; box-shadow: 0 0 10px var(--primary-glow); }
+        .header-logo-circle img { width: 100%; height: 100%; object-fit: cover; }
+        .logo-text-box { display: flex; flex-direction: column; min-width: 0; }
+        h1.logo-text { font-weight: 800; font-size: 14px; letter-spacing: 0.5px; text-transform: uppercase; line-height: 1.2; color: var(--primary); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+        .logo-sub { font-size: 10px; color: var(--text-dim); letter-spacing: 0.3px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+        
+        .header-actions { display: flex; align-items: center; gap: 8px; flex-shrink: 0; }
+        .header-btn {
+            background: rgba(197, 160, 89, 0.12); border: 1px solid var(--primary);
+            color: var(--primary); font-size: 11px; font-weight: 600; padding: 5px 12px; border-radius: 20px; cursor: pointer;
+        }
+
+        /* SEARCH BAR */
+        .search-container { padding: 12px 16px 4px 16px; display: flex; gap: 8px; }
+        .quick-search-box { 
+            flex: 1; background: #0f172a; border: 1px solid rgba(197, 160, 89, 0.4); 
+            border-radius: 8px; padding: 11px 14px; color: #fff; font-size: 13px; outline: none;
+            transition: border-color 0.2s, box-shadow 0.2s;
+        }
+        .quick-search-box:focus { border-color: var(--primary); box-shadow: 0 0 12px var(--primary-glow); }
+
+        /* CRAWLABLE LOCALITY PILLS */
+        .seo-tags-scroll {
+            display: flex; gap: 8px; overflow-x: auto; padding: 6px 16px 6px 16px; scrollbar-width: none;
+            -webkit-overflow-scrolling: touch;
+        }
+        .seo-tags-scroll::-webkit-scrollbar { display: none; }
+        .seo-tag-pill {
+            background: rgba(255, 255, 255, 0.05); border: 1px solid rgba(197, 160, 89, 0.25);
+            padding: 4px 10px; border-radius: 14px; font-size: 11px; color: #cbd5e1; white-space: nowrap; cursor: pointer;
+            text-decoration: none; display: inline-block;
+        }
+        .seo-tag-pill:hover, .seo-tag-pill.active-pill { background: var(--primary); color: #020617; font-weight: 700; }
+
+        /* SORT TOOLBAR */
+        .sort-toolbar {
+            display: flex; align-items: center; gap: 8px; padding: 2px 16px 8px 16px; overflow-x: auto; scrollbar-width: none;
+            -webkit-overflow-scrolling: touch;
+        }
+        .sort-toolbar::-webkit-scrollbar { display: none; }
+        .sort-label { font-size: 10px; color: var(--text-dim); text-transform: uppercase; font-weight: 700; white-space: nowrap; }
+        .sort-btn {
+            background: rgba(15, 23, 42, 0.7); border: 1px solid rgba(255, 255, 255, 0.1);
+            color: #94a3b8; font-size: 10px; padding: 4px 10px; border-radius: 6px; font-weight: 600; cursor: pointer; white-space: nowrap;
+        }
+        .sort-btn.active { background: rgba(197, 160, 89, 0.2); border-color: var(--primary); color: var(--primary); font-weight: 700; }
+
+        /* WISHLIST BANNER */
+        #wishlistBanner {
+            display: none; background: rgba(197, 160, 89, 0.15); border: 1px solid var(--primary);
+            margin: 6px 16px 0 16px; padding: 8px 12px; border-radius: 8px; 
+            justify-content: space-between; align-items: center; font-size: 12px;
+            animation: fadeIn 0.25s ease;
+        }
+        #wishlistBanner span { color: var(--primary); font-weight: 600; }
+        #wishlistBanner button { background: none; border: none; color: #fff; text-decoration: underline; font-size: 12px; cursor: pointer; }
+
+        /* FEED GRID & CARDS */
+        .container { padding: 8px 16px 20px 16px; min-height: 50vh; }
+        .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+        
+        .card { 
+            background: var(--card-bg); border-radius: 12px; overflow: hidden; 
+            box-shadow: 0 6px 16px rgba(0,0,0,0.3); cursor: pointer; 
+            border: 1px solid rgba(255,255,255,0.06); position: relative;
+            display: flex; flex-direction: column; justify-content: space-between;
+            animation: cardEntrance 0.3s ease-out forwards;
+            contain: content;
+        }
+        @keyframes cardEntrance { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: translateY(0); } }
+        .card:hover { transform: translateY(-3px); border-color: var(--primary-glow); }
+        
+        .card-img-wrap { position: relative; width: 100%; aspect-ratio: 16 / 11; background: #0a0f1d; overflow: hidden; }
+        .card img { width: 100%; height: 100%; object-fit: cover; display: block; }
+        
+        .card-fav-btn {
+            position: absolute; top: 7px; right: 7px; background: rgba(15, 23, 42, 0.8); 
+            backdrop-filter: blur(4px); border: none; border-radius: 50%; width: 28px; height: 28px; 
+            display: flex; align-items: center; justify-content: center; font-size: 13px; 
+            cursor: pointer; z-index: 3; color: #fff;
+        }
+        .card-fav-btn.active { color: var(--red); }
+
+        .card-badges { position: absolute; top: 7px; left: 7px; display: flex; gap: 4px; z-index: 2; }
+        .badge-tag {
+            background: rgba(15, 23, 42, 0.85); border: 1px solid var(--primary);
+            color: var(--primary); font-size: 8px; font-weight: 800; padding: 2px 6px;
+            border-radius: 4px; backdrop-filter: blur(4px); letter-spacing: 0.3px; text-transform: uppercase;
+        }
+        .badge-hot { border-color: #ef4444; color: #f87171; }
+        .badge-sale { border-color: #38bdf8; color: #38bdf8; }
+
+        .card-info { padding: 9px 10px 10px 10px; display: flex; flex-direction: column; flex: 1; justify-content: space-between; }
+        .badge-type { font-size: 9px; color: var(--primary); font-weight: 700; text-transform: uppercase; margin-bottom: 2px; }
+        .price { font-size: 15px; font-weight: 800; color: var(--primary); line-height: 1.2; }
+        .title { font-size: 11.5px; color: var(--text-dim); margin: 4px 0 8px 0; height: 32px; overflow: hidden; line-height: 1.35; font-weight: 500; }
+        
+        .card-bottom-row { 
+            display: flex; justify-content: space-between; align-items: center; padding-top: 6px; 
+            border-top: 1px solid rgba(255,255,255,0.04); font-size: 10px;
+        }
+        .possession-tag { color: #38bdf8; font-weight: 600; white-space: nowrap; }
+        .compare-toggle-label { color: var(--text-dim); display: flex; align-items: center; gap: 4px; cursor: pointer; user-select: none; }
+        .compare-toggle-label input { accent-color: var(--primary); width: 13px; height: 13px; }
+
+        /* SKELETON LOADERS */
+        .skeleton-card { pointer-events: none; border: 1px solid rgba(255,255,255,0.03); opacity: 0.8; }
+        .skeleton-box { 
+            background: linear-gradient(90deg, #0d1527 25%, #1e293b 50%, #0d1527 75%);
+            background-size: 200% 100%; animation: shimmer 1.5s infinite;
+        }
+        .skeleton-line {
+            height: 12px; border-radius: 4px;
+            background: linear-gradient(90deg, #162032 25%, #243248 50%, #162032 75%);
+            background-size: 200% 100%; animation: shimmer 1.5s infinite;
+        }
+        @keyframes shimmer { 0% { background-position: 200% 0; } 100% { background-position: -200% 0; } }
+
+        /* EMPTY STATE */
+        .empty-state { grid-column: 1 / -1; text-align: center; padding: 60px 20px; display: flex; flex-direction: column; align-items: center; }
+        .empty-radar {
+            width: 70px; height: 70px; border-radius: 50%; display: flex; align-items: center; justify-content: center;
+            background: rgba(197, 160, 89, 0.08); border: 1px solid rgba(197, 160, 89, 0.3); margin-bottom: 16px;
+        }
+        .empty-icon { font-size: 32px; }
+
+        /* FLOATING PROPERTY COMPARE TRAY */
+        #compareTray {
+            position: fixed; bottom: 68px; left: 50%; transform: translateX(-50%);
+            background: rgba(15, 23, 42, 0.98); border: 1.5px solid var(--primary);
+            padding: 8px 14px; border-radius: 30px; display: none; align-items: center; gap: 10px;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.7); z-index: 900; animation: fadeIn 0.2s ease;
+        }
+        #compareTray span { font-size: 11px; font-weight: 700; color: var(--primary); }
+        .btn-launch-compare {
+            background: var(--primary); color: var(--dark); border: none; font-size: 11px;
+            font-weight: 800; padding: 5px 12px; border-radius: 15px; cursor: pointer;
+        }
+        .btn-clear-compare { background: none; border: none; color: var(--text-dim); font-size: 11px; cursor: pointer; text-decoration: underline; }
+
+        /* COMPARE MODAL */
+        #compareModal {
+            position: fixed; inset: 0; background: var(--bg); z-index: 7500;
+            display: none; flex-direction: column; overflow-y: auto; padding: 16px;
+        }
+        .compare-modal-header {
+            display: flex; justify-content: space-between; align-items: center;
+            border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 12px; margin-bottom: 15px;
+        }
+        .compare-table-wrap { width: 100%; overflow-x: auto; -webkit-overflow-scrolling: touch; }
+        .compare-table { width: 100%; border-collapse: collapse; min-width: 460px; font-size: 12px; }
+        .compare-table th, .compare-table td {
+            border: 1px solid rgba(255,255,255,0.08); padding: 10px 12px; text-align: left;
+        }
+        .compare-table th { background: rgba(197, 160, 89, 0.1); color: var(--primary); font-weight: 700; }
+        .compare-table td { background: rgba(255,255,255,0.02); color: #cbd5e1; }
+
+        /* PROPERTY DETAIL PAGE (PDP) */
+        #pdpPage { 
+            position: fixed; top: 0; left: 0; width: 100%; height: 100%; 
+            background: var(--bg); z-index: 5000; display: none; flex-direction: column; overflow-y: auto; 
+            animation: slideUp 0.28s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+        @keyframes slideUp { from { transform: translateY(100%); } to { transform: translateY(0); } }
+        
+        .pdp-header { 
+            position: sticky; top: 0; background: rgba(15, 23, 42, 0.96); backdrop-filter: blur(10px); 
+            padding: 10px 16px; display: flex; align-items: center; justify-content: space-between; 
+            border-bottom: 1px solid rgba(255,255,255,0.1); z-index: 10; 
+        }
+        .pdp-nav-left { display: flex; align-items: center; gap: 10px; }
+        .pdp-nav-right { display: flex; align-items: center; gap: 6px; }
+        .pdp-icon-btn { 
+            background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.1); 
+            color: #fff; padding: 6px 12px; border-radius: 6px; font-size: 12px; font-weight: 600; 
+            cursor: pointer; display: flex; align-items: center; gap: 4px;
+        }
+        
+        .pdp-slider-wrapper { position: relative; width: 100%; height: 300px; background: #000; flex-shrink: 0; }
+        .pdp-fs-btn {
+            position: absolute; top: 12px; left: 12px;
+            background: rgba(15, 23, 42, 0.85); backdrop-filter: blur(6px);
+            color: var(--primary); border: 1px solid var(--primary);
+            padding: 6px 12px; border-radius: 20px; font-size: 11px; font-weight: 700;
+            cursor: pointer; z-index: 5; display: flex; align-items: center; gap: 5px;
+        }
+
+        #pdpImgContainer { 
+            display: flex; width: 100%; height: 100%; overflow-x: auto; 
+            scroll-snap-type: x mandatory; scrollbar-width: none; background: #000;
+            -webkit-overflow-scrolling: touch;
+        }
+        #pdpImgContainer::-webkit-scrollbar { display: none; }
+        #pdpImgContainer .slide-item { 
+            width: 100%; height: 300px; flex-shrink: 0; 
+            scroll-snap-align: start; scroll-snap-stop: always; background: #000; 
+        }
+        #pdpImgContainer img, #pdpImgContainer iframe { width: 100%; height: 100%; object-fit: cover; border: none; display: block; }
+        
+        .pdp-img-counter {
+            position: absolute; bottom: 12px; right: 12px; background: rgba(15, 23, 42, 0.85); 
+            border: 1px solid rgba(255,255,255,0.2); backdrop-filter: blur(4px); 
+            color: #fff; font-size: 11px; font-weight: 600; padding: 3px 9px; border-radius: 12px; z-index: 3;
+        }
+
+        .pdp-details { padding: 16px; padding-bottom: 95px; }
+        .pdp-details h2 { font-size: 22px; color: var(--primary); font-weight: 800; margin-bottom: 2px; }
+        .pdp-details p#pdpTitle { font-size: 13px; color: var(--text-dim); margin-bottom: 12px; line-height: 1.4; }
+
+        .pdp-action-shortcuts { display: flex; gap: 8px; margin-bottom: 14px; }
+        .btn-shortcut {
+            flex: 1; background: rgba(197, 160, 89, 0.08); border: 1px solid var(--primary);
+            color: var(--primary); padding: 9px 8px; border-radius: 8px; font-size: 11px; font-weight: 700;
+            text-align: center; cursor: pointer; text-decoration: none; display: flex; align-items: center; justify-content: center; gap: 4px;
+        }
+
+        .comp-detail-box, .comp-full-box, .comp-desc-box { background: rgba(255,255,255,0.03); padding: 12px; border-radius: 8px; margin-bottom: 10px; border: 1px solid rgba(255,255,255,0.05); }
+        .detail-label-sub { display: block; font-size: 10px; color: var(--text-dim); text-transform: uppercase; margin-bottom: 4px; letter-spacing: 0.5px; font-weight: 600; }
+        .detail-text-main { display: block; font-size: 13px; color: var(--text-main); font-weight: 600; }
+        .specs-grid-comp { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-bottom: 8px; }
+        .comp-detail-box { font-size: 11px; color: var(--text-dim); }
+        .comp-detail-box b { display: block; margin-top: 3px; font-size: 13px; color: var(--text-main); font-weight: 600; }
+
+        /* DYNAMIC CARPET AREA CONVERTER */
+        .converter-box {
+            background: rgba(15, 23, 42, 0.8); border: 1px solid rgba(197, 160, 89, 0.2);
+            border-radius: 8px; padding: 10px 12px; margin-bottom: 12px; display: none; justify-content: space-between; align-items: center;
+        }
+        .conv-label { font-size: 11px; color: var(--text-dim); }
+        .conv-val { font-size: 14px; font-weight: 800; color: var(--primary); }
+        .conv-pills { display: flex; gap: 4px; }
+        .conv-pill {
+            background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.1);
+            color: #cbd5e1; font-size: 10px; font-weight: 700; padding: 3px 8px; border-radius: 4px; cursor: pointer;
+        }
+        .conv-pill.active { background: var(--primary); color: #020617; border-color: var(--primary); }
+
+        /* DYNAMIC VERIFIED AMENITIES CHECKLIST */
+        #pdpAmenitiesWrapper { display: none; }
+        .amenities-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+        .amenity-item {
+            background: rgba(255,255,255,0.02); border: 1px solid rgba(255,255,255,0.05);
+            border-radius: 6px; padding: 8px 10px; font-size: 11px; display: flex; align-items: center; gap: 6px; color: #cbd5e1; font-weight: 500;
+        }
+
+        /* 100% MATHEMATICAL DYNAMIC COMMUTE RADAR */
+        .commute-card {
+            background: rgba(15, 23, 42, 0.9); border: 1px solid rgba(56, 189, 248, 0.25);
+            border-radius: 10px; padding: 12px; margin-bottom: 12px;
+        }
+        .commute-head { 
+            display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px; 
+        }
+        .commute-head span { font-size: 11.5px; font-weight: 800; color: #38bdf8; text-transform: uppercase; }
+        .commute-badge { 
+            background: rgba(56, 189, 248, 0.12); color: #38bdf8; border: 1px solid rgba(56, 189, 248, 0.3);
+            font-size: 9px; font-weight: 700; padding: 2px 7px; border-radius: 10px;
+        }
+        .commute-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+        .commute-item { 
+            background: rgba(255,255,255,0.02); border: 1px solid rgba(255,255,255,0.04);
+            border-radius: 6px; padding: 6px 8px; font-size: 11px; color: var(--text-dim);
+        }
+        .commute-item b { display: block; color: #f8fafc; font-size: 12px; margin-top: 2px; }
+        .commute-note { font-size: 9.5px; color: #64748b; margin-top: 8px; line-height: 1.4; }
+
+        /* FINANCIAL CALCULATOR (RENT / SALE ADAPTIVE) */
+        .calc-wrapper {
+            background: rgba(15, 23, 42, 0.9); border: 1px solid rgba(197, 160, 89, 0.25);
+            border-radius: 10px; padding: 14px; margin-bottom: 14px;
+        }
+        .calc-header-title { font-size: 12px; font-weight: 800; color: var(--primary); text-transform: uppercase; margin-bottom: 10px; }
+        .calc-row { display: flex; justify-content: space-between; font-size: 12px; color: var(--text-dim); margin-bottom: 6px; }
+        .calc-row b { color: #f8fafc; }
+        .calc-slider-group { margin: 8px 0; }
+        .calc-slider-group label { font-size: 10px; color: var(--primary); display: flex; justify-content: space-between; margin-bottom: 3px; font-weight: 600; }
+        .calc-slider-group input[type="range"] { width: 100%; accent-color: var(--primary); cursor: pointer; }
+
+        /* SIMILAR PROPERTIES */
+        .similar-section { margin-top: 15px; }
+        .similar-title { font-size: 12px; font-weight: 800; color: var(--primary); margin-bottom: 10px; text-transform: uppercase; }
+        .similar-scroll { display: flex; gap: 10px; overflow-x: auto; scrollbar-width: none; -webkit-overflow-scrolling: touch; }
+        .similar-scroll::-webkit-scrollbar { display: none; }
+        .similar-card {
+            width: 145px; flex-shrink: 0; background: var(--card-bg); border-radius: 8px; overflow: hidden;
+            border: 1px solid rgba(255,255,255,0.06); cursor: pointer;
+        }
+        .similar-card img { width: 100%; height: 85px; object-fit: cover; }
+        .similar-card-info { padding: 6px 8px; }
+        .similar-card-info b { font-size: 12px; color: var(--primary); display: block; }
+        .similar-card-info span { font-size: 10px; color: var(--text-dim); display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+
+        /* ADVANCED FULLSCREEN LIGHTBOX */
+        #photoLightbox {
+            position: fixed; inset: 0; background: rgba(0, 0, 0, 0.98);
+            backdrop-filter: blur(12px); display: none; flex-direction: column;
+            align-items: center; justify-content: center; z-index: 10000;
+        }
+        .lightbox-nav-header {
+            position: absolute; top: 0; width: 100%; display: flex; justify-content: space-between;
+            align-items: center; padding: 14px 18px; z-index: 10002;
+        }
+        .lightbox-counter { color: var(--primary); font-weight: 700; font-size: 13px; }
+        .close-lightbox { color: #fff; font-size: 26px; cursor: pointer; font-weight: 700; line-height: 1; padding: 4px; }
+        
+        .lightbox-stage {
+            position: relative; width: 100%; height: 82vh; display: flex;
+            align-items: center; justify-content: center; overflow: hidden;
+        }
+        #lightboxImg {
+            max-width: 95vw; max-height: 80vh; object-fit: contain; border-radius: 6px;
+            user-select: none; box-shadow: 0 0 35px rgba(0,0,0,0.8); display: none;
+        }
+        #lightboxVideoWrap {
+            display: none; width: 95vw; max-width: 500px; height: 75vh;
+            border-radius: 12px; overflow: hidden; box-shadow: 0 0 35px rgba(0,0,0,0.9); background: #000;
+        }
+        #lightboxVideoWrap iframe { width: 100%; height: 100%; border: none; display: block; }
+        
+        .lightbox-arrow {
+            position: absolute; top: 50%; transform: translateY(-50%);
+            background: rgba(15, 23, 42, 0.75); border: 1px solid rgba(197, 160, 89, 0.3);
+            color: #fff; font-size: 18px; width: 42px; height: 42px; border-radius: 50%;
+            display: flex; align-items: center; justify-content: center; cursor: pointer; z-index: 10003;
+        }
+        .lightbox-prev { left: 10px; }
+        .lightbox-next { right: 10px; }
+
+        /* VISIT SCHEDULER MODAL */
+        #schedulerModal {
+            position: fixed; inset: 0; background: rgba(2, 6, 23, 0.85); backdrop-filter: blur(8px);
+            z-index: 8000; display: none; align-items: center; justify-content: center; padding: 16px;
+        }
+        .slot-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin: 12px 0; }
+        .slot-btn {
+            background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1);
+            color: #cbd5e1; padding: 8px; border-radius: 6px; font-size: 11px; font-weight: 700; cursor: pointer; text-align: center;
+        }
+        .slot-btn.active { background: var(--primary); color: #020617; border-color: var(--primary); }
+
+        /* EXACT YOUTUBE/ANDROID-STYLE BOTTOM-SHEET SHARE POPUP */
+        #shareBottomSheetOverlay {
+            position: fixed; inset: 0; background: rgba(0, 0, 0, 0.65); backdrop-filter: blur(4px);
+            z-index: 9200; display: none; align-items: flex-end; justify-content: center;
+            opacity: 0; transition: opacity 0.25s ease;
+        }
+        #shareBottomSheetOverlay.active { opacity: 1; }
+        .share-sheet {
+            background: #18181b; width: 100%; max-width: 520px; border-radius: 20px 20px 0 0;
+            padding: 10px 16px 28px 16px; box-shadow: 0 -8px 30px rgba(0,0,0,0.85);
+            transform: translateY(100%); transition: transform 0.28s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+        #shareBottomSheetOverlay.active .share-sheet { transform: translateY(0); }
+        .share-drag-handle {
+            width: 36px; height: 4px; background: #52525b; border-radius: 2px; margin: 4px auto 14px auto;
+        }
+        .share-sheet-header {
+            display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px;
+        }
+        .share-sheet-header b { font-size: 15px; color: #fff; font-weight: 700; }
+        .share-sheet-header span { color: #a1a1aa; cursor: pointer; font-size: 20px; font-weight: 600; padding: 2px; }
+
+        .share-apps-row {
+            display: flex; gap: 14px; overflow-x: auto; padding-bottom: 12px; scrollbar-width: none;
+            -webkit-overflow-scrolling: touch;
+        }
+        .share-apps-row::-webkit-scrollbar { display: none; }
+        .share-app-node {
+            display: flex; flex-direction: column; align-items: center; gap: 6px;
+            text-decoration: none; color: #e4e4e7; font-size: 10.5px; font-weight: 500; cursor: pointer; flex-shrink: 0; width: 62px;
+        }
+        .share-app-icon {
+            width: 50px; height: 50px; border-radius: 50%; display: flex; align-items: center; justify-content: center;
+            font-size: 22px;
+        }
+        .bg-messenger { background: linear-gradient(135deg, #00B2FE 0%, #006AFF 50%, #9B00E8 100%); color: #fff; }
+        .bg-whatsapp { background: #25D366; color: #fff; }
+        .bg-snapchat { background: #FFFC00; color: #000; }
+        .bg-messages { background: #007AFF; color: #fff; }
+        .bg-facebook { background: #1877F2; color: #fff; }
+        .bg-telegram { background: #229ED9; color: #fff; }
+        .share-app-title { text-align: center; line-height: 1.2; }
+
+        .share-sheet-divider { height: 1px; background: rgba(255,255,255,0.08); margin: 6px 0 10px 0; }
+        .share-actions-list { display: flex; flex-direction: column; }
+        .share-action-row {
+            display: flex; align-items: center; gap: 14px; padding: 12px 6px;
+            color: #f4f4f5; font-size: 13.5px; font-weight: 500; cursor: pointer; border-radius: 8px;
+        }
+        .share-action-row:active { background: rgba(255,255,255,0.06); }
+        .share-action-icon { font-size: 19px; width: 24px; text-align: center; color: #cbd5e1; }
+
+        /* PDP BOTTOM FOOTER */
+        .pdp-footer { position: fixed; bottom: 0; width: 100%; height: 60px; display: flex; padding: 8px; background: var(--dark); gap: 8px; border-top: 1px solid rgba(255,255,255,0.1); z-index: 20; }
+        .btn-call { flex: 1; background: #334155; color: white; border: none; border-radius: 6px; font-weight: 700; cursor: pointer; font-size: 12px; }
+        .btn-schedule { flex: 1; background: #0284c7; color: white; border: none; border-radius: 6px; font-weight: 700; cursor: pointer; font-size: 12px; }
+        .btn-buy { flex: 1.3; background: var(--primary); color: var(--dark); border: none; border-radius: 6px; font-weight: 800; cursor: pointer; font-size: 13px; }
+        
+        /* FLOATING BOTTOM NAV */
+        .bottom-bar { 
+            position: fixed; bottom: 0; width: 100%; height: 58px; 
+            background: rgba(15, 23, 42, 0.95); backdrop-filter: blur(10px); 
+            display: flex; border-top: 1px solid rgba(255,255,255,0.1); z-index: 100; 
+        }
+        .bottom-bar button { 
+            flex: 1; border: none; background: none; font-weight: 700; font-size: 11px; 
+            color: var(--text-main); cursor: pointer; display: flex; flex-direction: column; 
+            align-items: center; justify-content: center; gap: 3px;
+        }
+        .bottom-bar button.active-nav { color: var(--primary); }
+
+        /* CREATIVE PREMIUM FOOTER UI */
+        .site-footer {
+            display: none; opacity: 0; padding: 35px 20px 85px 20px; background: linear-gradient(180deg, #090e1a 0%, #020617 100%);
+            border-top: 1px solid rgba(197, 160, 89, 0.2); text-align: center;
+            transition: opacity 0.3s ease; box-shadow: inset 0 1px 0 rgba(255,255,255,0.05);
+        }
+        .site-footer.hydrated { display: block !important; opacity: 1 !important; }
+        .footer-brand-title { font-size: 14px; font-weight: 800; color: var(--primary); letter-spacing: 0.8px; margin-bottom: 4px; }
+        .footer-tagline { font-size: 11.5px; color: var(--text-dim); margin-bottom: 18px; }
+        .footer-grid-nav { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; max-width: 380px; margin: 0 auto 20px auto; }
+        .footer-nav-card {
+            background: rgba(255, 255, 255, 0.03); border: 1px solid rgba(197, 160, 89, 0.2);
+            border-radius: 10px; padding: 10px; text-align: center; cursor: pointer;
+            transition: background 0.2s, border-color 0.2s;
+        }
+        .footer-nav-card:hover { background: rgba(197, 160, 89, 0.1); border-color: var(--primary); }
+        .footer-nav-card b { display: block; font-size: 12px; color: var(--primary); margin-bottom: 2px; }
+        .footer-nav-card span { font-size: 10px; color: var(--text-dim); }
+        .footer-contact-strip { font-size: 11.5px; color: #cbd5e1; margin-bottom: 14px; line-height: 1.5; }
+        .footer-copy { font-size: 10.5px; color: #64748b; border-top: 1px solid rgba(255,255,255,0.05); padding-top: 12px; }
+
+        /* CREATIVE MODAL DIALOGS FOR FOOTER LINKS */
+        .footer-modal-backdrop {
+            position: fixed; inset: 0; background: rgba(2, 6, 23, 0.88); backdrop-filter: blur(10px);
+            z-index: 8500; display: none; align-items: center; justify-content: center; padding: 16px;
+            animation: fadeIn 0.2s ease;
+        }
+        .footer-modal-card {
+            background: #0f172a; border: 1.5px solid var(--primary); border-radius: 18px;
+            padding: 22px; max-width: 420px; width: 100%; box-shadow: 0 15px 40px rgba(0,0,0,0.9);
+            text-align: left; max-height: 85vh; overflow-y: auto;
+        }
+        .footer-modal-title { font-size: 15px; font-weight: 800; color: var(--primary); text-transform: uppercase; margin-bottom: 10px; display: flex; justify-content: space-between; align-items: center; }
+        .footer-modal-body { font-size: 12px; color: #cbd5e1; line-height: 1.7; margin-bottom: 16px; }
+        .footer-modal-body p { margin-bottom: 8px; }
+
+        #toast {
+            position: fixed; bottom: 70px; left: 50%; transform: translateX(-50%);
+            background: rgba(15, 23, 42, 0.95); color: var(--primary); border: 1px solid var(--primary);
+            padding: 8px 16px; border-radius: 20px; font-size: 12px; font-weight: 600;
+            display: none; z-index: 9999; box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+        }
+        @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+    </style>
+</head>
+<body>
+
+<!-- BRAND SPLASH SCREEN -->
+<div id="brandSplashScreen">
+    <div class="splash-logo-wrap">
+        <img src="https://i.postimg.cc/LXNj4VSd/IMG-20260913-182256.png" alt="Yuvraj Properties Logo">
+    </div>
+    <div class="splash-brand-title">Yuvraj Properties</div>
+    <div class="splash-brand-sub">Gurugram Real Estate • Rahul Kumar</div>
+</div>
+
+<div id="offlineBanner">⚠️ Offline Mode: Viewing cached properties from your device.</div>
+
+<header>
+    <div class="header-left" onclick="goHome()">
+        <div class="header-logo-circle">
+            <img src="https://i.postimg.cc/LXNj4VSd/IMG-20260913-182256.png" alt="Yuvraj Properties Gurugram Logo" width="42" height="42" loading="eager" decoding="async">
+        </div>
+        <div class="logo-text-box">
+            <h1 class="logo-text">YUVRAJ PROPERTIES</h1>
+            <div class="logo-sub">&amp; DEVELOPER • GURUGRAM</div>
+        </div>
+    </div>
+    <div class="header-actions">
+        <button class="header-btn" onclick="openModal('supportModal')">🎧 Support</button>
+        <button class="header-btn" onclick="openModal('aboutModal')">About</button>
+    </div>
+</header>
+
+<!-- QUICK SEARCH -->
+<div class="search-container">
+    <input type="text" id="quickSearchInput" class="quick-search-box" placeholder="🔍 Search Sector, BHK, Property ID, Rent or Sale..." autocomplete="off">
+</div>
+
+<!-- CRAWLABLE LOCALITY PILLS -->
+<div class="seo-tags-scroll" id="quickSectorsBar">
+    <a href="?sector=" class="seo-tag-pill active-pill" onclick="event.preventDefault(); filterBySectorQuick('')">All Gurugram</a>
+    <a href="?sector=DLF+Phase+1" class="seo-tag-pill" onclick="event.preventDefault(); filterBySectorQuick('DLF Phase 1')">DLF Phase 1</a>
+    <a href="?sector=DLF+Phase+2" class="seo-tag-pill" onclick="event.preventDefault(); filterBySectorQuick('DLF Phase 2')">DLF Phase 2</a>
+    <a href="?sector=DLF+Phase+3" class="seo-tag-pill" onclick="event.preventDefault(); filterBySectorQuick('DLF Phase 3')">DLF Phase 3</a>
+    <a href="?sector=DLF+Phase+4" class="seo-tag-pill" onclick="event.preventDefault(); filterBySectorQuick('DLF Phase 4')">DLF Phase 4</a>
+    <a href="?sector=DLF+Phase+5" class="seo-tag-pill" onclick="event.preventDefault(); filterBySectorQuick('DLF Phase 5')">DLF Phase 5</a>
+    <a href="?sector=Golf+Course+Road" class="seo-tag-pill" onclick="event.preventDefault(); filterBySectorQuick('Golf Course Road')">Golf Course Rd</a>
+    <a href="?sector=Sohna+Road" class="seo-tag-pill" onclick="event.preventDefault(); filterBySectorQuick('Sohna Road')">Sohna Road</a>
+    <a href="?sector=Sector+57" class="seo-tag-pill" onclick="event.preventDefault(); filterBySectorQuick('Sector 57')">Sector 57</a>
+    <a href="?sector=Sector+45" class="seo-tag-pill" onclick="event.preventDefault(); filterBySectorQuick('Sector 45')">Sector 45</a>
+    <a href="?sector=Sector+43" class="seo-tag-pill" onclick="event.preventDefault(); filterBySectorQuick('Sector 43')">Sector 43</a>
+    <a href="?sector=Cyber+City" class="seo-tag-pill" onclick="event.preventDefault(); filterBySectorQuick('Cyber City')">Cyber City</a>
+</div>
+
+<!-- SORT TOOLBAR -->
+<div class="sort-toolbar">
+    <span class="sort-label">Sort:</span>
+    <button class="sort-btn active" onclick="applySortOrder('featured', this)">⚡ Featured</button>
+    <button class="sort-btn" onclick="applySortOrder('hot', this)">🔥 Hot Deals</button>
+    <button class="sort-btn" onclick="applySortOrder('price-asc', this)">₹ Price: Low to High</button>
+    <button class="sort-btn" onclick="applySortOrder('price-desc', this)">₹ Price: High to Low</button>
+    <button class="sort-btn" onclick="applySortOrder('newest', this)">🕒 Newest</button>
+</div>
+
+<!-- WISHLIST BANNER -->
+<div id="wishlistBanner">
+    <span id="wishlistCountText">Showing Saved Properties (0)</span>
+    <button onclick="goHome()">← Back to All</button>
+</div>
+
+<!-- MAIN FEED GRID -->
+<main class="container">
+    <div class="grid" id="mainGrid">
+        <div class="card skeleton-card"><div class="card-img-wrap skeleton-box"></div><div class="card-info"><div class="skeleton-line" style="width:40%;"></div><div class="skeleton-line" style="width:65%; height:16px; margin:6px 0;"></div><div class="skeleton-line" style="width:85%;"></div></div></div>
+        <div class="card skeleton-card"><div class="card-img-wrap skeleton-box"></div><div class="card-info"><div class="skeleton-line" style="width:40%;"></div><div class="skeleton-line" style="width:65%; height:16px; margin:6px 0;"></div><div class="skeleton-line" style="width:85%;"></div></div></div>
+    </div>
+</main>
+
+<!-- FLOATING PROPERTY COMPARE TRAY -->
+<div id="compareTray">
+    <span id="compareCountLabel">2 Selected</span>
+    <button class="btn-launch-compare" onclick="openCompareModal()">Compare Now</button>
+    <button class="btn-clear-compare" onclick="clearCompareSelection()">Clear</button>
+</div>
+
+<!-- HIGH IMPACT LOCAL SEO SECTION -->
+<section class="seo-intro-section" style="padding:16px; background:rgba(15,23,42,0.6); border:1px solid rgba(197,160,89,0.15); border-radius:12px; margin:10px 16px 20px 16px;">
+    <h2 style="font-size:14px; color:var(--primary); font-weight:700; margin-bottom:6px;">Verified Rental Flats &amp; Luxury Builder Floors for Sale in Gurugram</h2>
+    <p style="font-size:12px; color:var(--text-dim); line-height:1.6;">
+        Yuvraj Properties &amp; Developer provides genuine, 100% physically verified residential rental apartments, luxury independent builder floors, and ready-to-move flats for rent and sale across prime locations of Gurugram. Direct owner deals, verified video walkthroughs, and authentic pricing led by Rahul Kumar.
+    </p>
+</section>
+
+<!-- FAQ SECTION FOR GOOGLE RICH SNIPPETS -->
+<section class="faq-section" style="padding:16px; margin:0 16px 20px 16px; background:#0f172a; border-radius:12px; border:1px solid rgba(255,255,255,0.06);">
+    <h2 style="font-size:14px; color:var(--primary); font-weight:700; margin-bottom:12px; text-transform:uppercase;">Frequently Asked Questions</h2>
+    <div class="faq-item" style="border-bottom:1px solid rgba(255,255,255,0.06); padding:10px 0;">
+        <div class="faq-q" onclick="toggleFaq(this)">
+            <span>How do I schedule a physical site visit for rent or sale in Gurugram?</span>
+            <span>▼</span>
+        </div>
+        <div class="faq-a" style="display:none; font-size:11px; color:var(--text-dim); margin-top:6px; line-height:1.5;">Click on any listing and select "SLOT" to choose your preferred time slot or connect directly on WhatsApp with Rahul Kumar at +91 8595833459.</div>
+    </div>
+    <div class="faq-item" style="padding:10px 0;">
+        <div class="faq-q" onclick="toggleFaq(this)">
+            <span>Are properties available for both Rent and Sale in Gurugram?</span>
+            <span>▼</span>
+        </div>
+        <div class="faq-a" style="display:none; font-size:11px; color:var(--text-dim); margin-top:6px; line-height:1.5;">Yes, we offer both rental apartments and ready-to-move independent builder floors for sale with transparent documentation and genuine owner pricing.</div>
+    </div>
+</section>
+
+<!-- CREATIVE PREMIUM FOOTER UI WITH DETAILED SECTIONS -->
+<footer class="site-footer" id="siteFooter">
+    <div class="footer-brand-title">YUVRAJ PROPERTIES &amp; DEVELOPER</div>
+    <p class="footer-tagline">Gurugram's Most Trusted Real Estate Brokerage &amp; Property Management Hub</p>
+    
+    <div class="footer-grid-nav">
+        <div class="footer-nav-card" onclick="openFooterModal('aboutModalCard')">
+            <b>🏢 About Us</b>
+            <span>Our Mission &amp; Legacy</span>
+        </div>
+        <div class="footer-nav-card" onclick="openFooterModal('supportModalCard')">
+            <b>🎧 App Support</b>
+            <span>24/7 Client Desk</span>
+        </div>
+        <div class="footer-nav-card" onclick="openFooterModal('privacyModalCard')">
+            <b>🔒 Privacy Policy</b>
+            <span>Data Security Promise</span>
+        </div>
+        <div class="footer-nav-card" onclick="openFooterModal('guideModalCard')">
+            <b>📖 Quick Guide</b>
+            <span>How to Rent / Buy</span>
+        </div>
+    </div>
+
+    <div class="footer-contact-strip">
+        📍 Office Hub: DLF Phase / Sector 45, Gurugram, Haryana<br>
+        ⏰ Working Hours: Monday – Sunday (9:00 AM – 9:00 PM) | 📞 Direct Line: +91 8595833459
+    </div>
+
+    <p class="footer-copy">© 2026 Yuvraj Properties &amp; Developer. Founded &amp; Managed by Rahul Kumar. All rights reserved.</p>
+</footer>
+
+<!-- FOOTER DETAILED MODAL CARDS -->
+<div id="aboutModalCard" class="footer-modal-backdrop" onclick="closeFooterModal(event, 'aboutModalCard')">
+    <div class="footer-modal-card" onclick="event.stopPropagation()">
+        <div class="footer-modal-title"><span>🏢 About Yuvraj Properties</span><span style="cursor:pointer; font-size:18px;" onclick="closeFooterModalDirect('aboutModalCard')">✕</span></div>
+        <div class="footer-modal-body">
+            <p><b>Yuvraj Properties &amp; Developer</b> is a premier real estate brokerage and rental property management firm operating across prime sectors of Gurugram (including DLF Phase 1-5, Golf Course Road, Sohna Road, and Cyber City).</p>
+            <p>Founded and actively managed by <b>Rahul Kumar</b>, our core principle is 100% transparency, verified property listings, direct owner negotiations, and seamless physical site visits. Whether you are looking for a luxury independent builder floor for sale or a fully furnished rental apartment, we ensure a hassle-free experience.</p>
+        </div>
+        <button class="btn-buy" style="width:100%; padding:10px;" onclick="openDirectWhatsApp('Hello Rahul Ji, I would like to know more about Yuvraj Properties.')">Chat with Rahul Kumar 💬</button>
+    </div>
+</div>
+
+<div id="supportModalCard" class="footer-modal-backdrop" onclick="closeFooterModal(event, 'supportModalCard')">
+    <div class="footer-modal-card" onclick="event.stopPropagation()">
+        <div class="footer-modal-title"><span>🎧 App &amp; Client Support</span><span style="cursor:pointer; font-size:18px;" onclick="closeFooterModalDirect('supportModalCard')">✕</span></div>
+        <div class="footer-modal-body">
+            <p>We provide dedicated support for all our property seekers and tenants using the Yuvraj Properties Web App / PWA.</p>
+            <p><b>Need Assistance With?</b><br>
+            • Scheduling physical site visits<br>
+            • Verifying rental agreement documentation<br>
+            • App installation &amp; offline property caching<br>
+            • Direct executive assistance</p>
+            <p>📞 Helpline: +91 8595833459<br>⏰ Available 7 Days a Week (9 AM - 9 PM)</p>
+        </div>
+        <button class="btn-buy" style="width:100%; padding:10px;" onclick="openDirectWhatsApp('Hello Support, I need assistance regarding an app feature or property listing.')">Connect via WhatsApp 💬</button>
+    </div>
+</div>
+
+<div id="privacyModalCard" class="footer-modal-backdrop" onclick="closeFooterModal(event, 'privacyModalCard')">
+    <div class="footer-modal-card" onclick="event.stopPropagation()">
+        <div class="footer-modal-title"><span>🔒 Privacy Policy</span><span style="cursor:pointer; font-size:18px;" onclick="closeFooterModalDirect('privacyModalCard')">✕</span></div>
+        <div class="footer-modal-body">
+            <p>At Yuvraj Properties, your privacy is our utmost priority.</p>
+            <p><b>1. Data Collection:</b> We only store your saved property wishlists and preferences locally on your device for fast browsing.</p>
+            <p><b>2. Contact Security:</b> Any inquiry or site visit request is transmitted securely over encrypted WhatsApp directly to Rahul Kumar. We never share or sell client contact numbers to third-party advertisers or telemarketers.</p>
+        </div>
+        <button class="btn-call" style="width:100%; padding:10px;" onclick="closeFooterModalDirect('privacyModalCard')">Understood</button>
+    </div>
+</div>
+
+<div id="guideModalCard" class="footer-modal-backdrop" onclick="closeFooterModal(event, 'guideModalCard')">
+    <div class="footer-modal-card" onclick="event.stopPropagation()">
+        <div class="footer-modal-title"><span>📖 Quick User Guide</span><span style="cursor:pointer; font-size:18px;" onclick="closeFooterModalDirect('guideModalCard')">✕</span></div>
+        <div class="footer-modal-body">
+            <p>Welcome to Yuvraj Properties Digital Hub! Here is how you can find your dream home in Gurugram within seconds:</p>
+            <p><b>1. Search &amp; Filter:</b> Use the top quick search bar to look up specific sectors (e.g. "DLF Phase 2"), BHK types, or property codes. Use the Filter tab to sort by budget and furnishing.</p>
+            <p><b>2. Compare Properties:</b> Select the "Compare" checkbox on any listing card to compare up to 3 properties side-by-side.</p>
+            <p><b>3. Book a Visit:</b> Tap any listing, view verified video walkthroughs and commute times, and click "Book Visit Slot" to instantly coordinate with Rahul Kumar on WhatsApp.</p>
+        </div>
+        <button class="btn-buy" style="width:100%; padding:10px;" onclick="closeFooterModalDirect('guideModalCard')">Start Exploring Listings →</button>
+    </div>
+</div>
+
+<!-- BOTTOM BAR -->
+<div class="bottom-bar">
+    <button onclick="goHome()" id="navHomeBtn" class="active-nav">
+        <span>🏠</span><span>HOME</span>
+    </button>
+    <button onclick="openFilters()" id="navFilterBtn">
+        <span>⇅</span><span>FILTERS</span>
+    </button>
+    <button onclick="toggleFavoritesView()" id="navFavBtn">
+        <span id="navFavIcon">🤍</span><span id="navFavText">SAVED (0)</span>
+    </button>
+    <button onclick="window.open('https://wa.me/918595833459?text=Hello%20Rahul%20ji,%20I%20am%20looking%20for%20a%20property%20for%20Rent/Sale%20in%20Gurugram.')">
+        <span>💬</span><span>WHATSAPP</span>
+    </button>
+</div>
+
+<!-- COMPARE MODAL -->
+<div id="compareModal">
+    <div class="compare-modal-header">
+        <h3 style="color:var(--primary); font-size:15px; font-weight:800;">Property Comparison</h3>
+        <span onclick="closeCompareModal()" style="font-size:24px; cursor:pointer; color:#fff;">✕</span>
+    </div>
+    <div class="compare-table-wrap">
+        <table class="compare-table" id="compareTable"></table>
+    </div>
+</div>
+
+<!-- VISIT TIME SCHEDULER MODAL -->
+<div id="schedulerModal">
+    <div style="background:#0f172a; border:1px solid var(--primary); border-radius:14px; padding:18px; max-width:380px; width:100%;">
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:12px;">
+            <b style="color:var(--primary); font-size:13px;">📅 Schedule Visit Slot</b>
+            <span onclick="closeSchedulerModal()" style="color:#fff; cursor:pointer; font-weight:700; font-size:18px;">✕</span>
+        </div>
+        <label style="font-size:10px; color:var(--text-dim); display:block; margin-bottom:4px; font-weight:600;">PREFERRED DATE:</label>
+        <input type="date" id="visitDateInput" class="quick-search-box" style="width:100%; margin-bottom:12px;">
+        
+        <label style="font-size:10px; color:var(--text-dim); display:block; margin-bottom:4px; font-weight:600;">TIME SLOT:</label>
+        <div class="slot-grid">
+            <div class="slot-btn active" onclick="selectSlot('10:00 AM - 12:00 PM', this)">10 AM - 12 PM</div>
+            <div class="slot-btn" onclick="selectSlot('12:00 PM - 02:00 PM', this)">12 PM - 2 PM</div>
+            <div class="slot-btn" onclick="selectSlot('02:00 PM - 04:00 PM', this)">2 PM - 4 PM</div>
+            <div class="slot-btn" onclick="selectSlot('04:00 PM - 06:00 PM', this)">4 PM - 6 PM</div>
+        </div>
+        <button class="btn-buy" style="width:100%; padding:12px; margin-top:8px;" onclick="confirmScheduledVisitWhatsApp()">Confirm on WhatsApp 💬</button>
+    </div>
+</div>
+
+<!-- YOUTUBE/ANDROID-STYLE BOTTOM-SHEET SHARE POPUP -->
+<div id="shareBottomSheetOverlay" onclick="closeShareBottomSheet(event)">
+    <div class="share-sheet" onclick="event.stopPropagation()">
+        <div class="share-drag-handle"></div>
+        <div class="share-sheet-header">
+            <b>Share</b>
+            <span onclick="closeShareBottomSheet()">✕</span>
+        </div>
+
+        <div class="share-apps-row">
+            <a id="sheetMessenger" class="share-app-node" target="_blank">
+                <div class="share-app-icon bg-messenger">⚡</div>
+                <span class="share-app-title">Facebook<br>Messenger</span>
+            </a>
+            <a id="sheetWhatsApp" class="share-app-node" target="_blank">
+                <div class="share-app-icon bg-whatsapp">💬</div>
+                <span class="share-app-title">WhatsApp</span>
+            </a>
+            <a id="sheetSnapchat" class="share-app-node" target="_blank">
+                <div class="share-app-icon bg-snapchat">👻</div>
+                <span class="share-app-title">Snapchat<br>chat</span>
+            </a>
+            <a id="sheetMessages" class="share-app-node">
+                <div class="share-app-icon bg-messages">✉️</div>
+                <span class="share-app-title">Messages</span>
+            </a>
+            <a id="sheetFacebook" class="share-app-node" target="_blank">
+                <div class="share-app-icon bg-facebook">f</div>
+                <span class="share-app-title">News Feed</span>
+            </a>
+            <a id="sheetTelegram" class="share-app-node" target="_blank">
+                <div class="share-app-icon bg-telegram">✈️</div>
+                <span class="share-app-title">Telegram</span>
+            </a>
+        </div>
+
+        <div class="share-sheet-divider"></div>
+
+        <div class="share-actions-list">
+            <div class="share-action-row" onclick="copyShareLinkFromSheet()">
+                <div class="share-action-icon">📋</div>
+                <span>Copy link</span>
+            </div>
+            <div class="share-action-row" onclick="triggerSystemQuickShare()">
+                <div class="share-action-icon">🔄</div>
+                <span>Quick Share</span>
+            </div>
+            <div class="share-action-row" onclick="inquireRahulDirectFromShare()">
+                <div class="share-action-icon">🏡</div>
+                <span>Send to Rahul Kumar (WhatsApp)</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- PROPERTY DETAIL PAGE (PDP) -->
+<div id="pdpPage">
+    <div class="pdp-header">
+        <div class="pdp-nav-left">
+            <span onclick="closePDP()" style="font-size:20px; cursor:pointer; color:var(--primary);">←</span> 
+            <b style="font-size:14px;">Details</b>
+        </div>
+        <div class="pdp-nav-right">
+            <button class="pdp-icon-btn" id="pdpShareBtn" onclick="openShareBottomSheet()">📤 Share</button>
+            <button class="pdp-icon-btn" id="pdpFavBtn">🤍 Save</button>
+        </div>
+    </div>
+    
+    <div class="pdp-slider-wrapper">
+        <button class="pdp-fs-btn" onclick="openFullscreenPhoto()" title="View Media Full Frame">
+            <span>⛶</span> Full Frame
+        </button>
+        <div id="pdpImgContainer"></div>
+        <div id="pdpImgCounter" class="pdp-img-counter">1 / 1</div>
+    </div>
+    
+    <div class="pdp-details">
+        <h2 id="pdpPrice"></h2>
+        <p id="pdpTitle"></p>
+        
+        <div class="pdp-action-shortcuts">
+            <a id="pdpMapBtn" class="btn-shortcut" target="_blank">📍 View on Google Maps</a>
+            <button class="btn-shortcut" onclick="openSchedulerModal()">📅 Book Visit Slot</button>
+        </div>
+
+        <!-- 100% DYNAMIC CARPET AREA CONVERTER -->
+        <div class="converter-box" id="pdpConverterBox">
+            <div>
+                <span class="conv-label">Carpet Area:</span>
+                <div class="conv-val" id="convValText">...</div>
+            </div>
+            <div class="conv-pills">
+                <span class="conv-pill active" onclick="setUnitConversion('sqft', this)">Sq. Ft</span>
+                <span class="conv-pill" onclick="setUnitConversion('gaj', this)">Gaj</span>
+                <span class="conv-pill" onclick="setUnitConversion('sqyd', this)">Sq. Yd</span>
+            </div>
+        </div>
+
+        <!-- SPECIFICATION GRID -->
+        <div class="pdp-comp-fields">
+            <div class="comp-full-box">
+                <span class="detail-label-sub">PROPERTY ID</span>
+                <b id="pdpCompCode" class="detail-text-main">...</b>
+            </div>
+            
+            <div class="specs-grid-comp">
+                <div class="comp-detail-box">Property Type: <b id="pdpCompType">Rent</b></div>
+                <div class="comp-detail-box">BHK Type: <b id="pdpCompBhk">2 BHK</b></div>
+                <div class="comp-detail-box">Furnishing: <b id="pdpCompFurnish">Semi-Furnished</b></div>
+                <div class="comp-detail-box">Tenant Profile: <b id="pdpCompTenant">Bachelors</b></div>
+            </div>
+
+            <div class="specs-grid-comp">
+                <div class="comp-detail-box">Status: <b id="pdpCompStatus">LIVE</b></div>
+                <div class="comp-detail-box">Possession: <b id="pdpCompPossDate">Immediate</b></div>
+                <div class="comp-detail-box">Floor / Tower: <b id="pdpCompFloor">Ground / Low-Rise</b></div>
+                <div class="comp-detail-box">Maintenance: <b id="pdpCompMaint">Included</b></div>
+            </div>
+
+            <div class="comp-full-box">
+                <span class="detail-label-sub">LOCATION / SECTOR</span>
+                <b id="pdpCompSector" class="detail-text-main">Sector 45</b>
+            </div>
+
+            <!-- 100% MATHEMATICALLY DYNAMIC COMMUTE RADAR -->
+            <div class="commute-card" id="pdpCommuteCard">
+                <div class="commute-head">
+                    <span>⏱️ Dynamic Commute &amp; Connectivity</span>
+                    <span class="commute-badge">Sector Corridor</span>
+                </div>
+                <div class="commute-grid">
+                    <div class="commute-item">
+                        <span>Cyber Hub / NH-48:</span>
+                        <b id="commuteCyber">...</b>
+                    </div>
+                    <div class="commute-item">
+                        <span>Nearest Metro:</span>
+                        <b id="commuteMetro">...</b>
+                    </div>
+                    <div class="commute-item">
+                        <span>Golf Course Road:</span>
+                        <b id="commuteGolf">...</b>
+                    </div>
+                    <div class="commute-item">
+                        <span>IGI Airport (T3):</span>
+                        <b id="commuteAirport">...</b>
+                    </div>
+                </div>
+                <div class="commute-note">⚡ Mathematically calculated from <span id="commuteSectorName">Sector</span> via primary arterial corridors. Tap "View on Google Maps" above for real-time live traffic.</div>
+            </div>
+
+            <!-- 100% DYNAMIC VERIFIED AMENITIES (FROM PANEL) -->
+            <div class="comp-full-box" id="pdpAmenitiesWrapper">
+                <span class="detail-label-sub">VERIFIED AMENITIES &amp; SOCIETY INFRA</span>
+                <div class="amenities-grid" id="pdpAmenitiesGrid"></div>
+            </div>
+
+            <!-- REFINED FINANCIAL CALCULATOR (RENT / SALE ADAPTIVE - NO SALARY INSECURITY) -->
+            <div class="calc-wrapper">
+                <div class="calc-header-title" id="calcHeaderLabel">💵 Move-In &amp; Cost Overview</div>
+                
+                <div id="rentCalcView">
+                    <div class="calc-row"><span>Monthly Rent:</span><b id="cRentVal">₹0</b></div>
+                    <div class="calc-row"><span>Security Deposit:</span><b id="cDepVal">As per agreement</b></div>
+                    <div class="calc-row"><span>Maintenance Charges:</span><b id="cMaintVal">Included</b></div>
+                    <div class="calc-row" style="border-top: 1px solid rgba(255,255,255,0.06); padding-top: 6px; margin-top: 6px;"><span>Possession Timeline:</span><b id="cPossVal" style="color: #38bdf8;">Immediate</b></div>
+                </div>
+
+                <div id="saleCalcView" style="display:none;">
+                    <div class="calc-row"><span>Estimated Down Payment (20%):</span><b id="cDownVal">₹0</b></div>
+                    <div class="calc-row"><span>Estimated Loan Amount (80%):</span><b id="cLoanVal">₹0</b></div>
+                    <div class="calc-slider-group">
+                        <label><span>Loan Tenure:</span> <b id="tenureLabel">20 Yrs</b></label>
+                        <input type="range" id="loanTenureSlider" min="5" max="30" value="20" oninput="calculateSaleEMI()">
+                    </div>
+                    <div class="calc-slider-group">
+                        <label><span>Interest Rate:</span> <b id="rateLabel">8.5%</b></label>
+                        <input type="range" id="loanRateSlider" min="7" max="12" step="0.1" value="8.5" oninput="calculateSaleEMI()">
+                    </div>
+                    <div class="calc-row" style="margin-top:8px;"><span>Estimated Monthly EMI:</span><b id="cEmiVal" style="color:var(--primary); font-size:14px;">₹0 / mo</b></div>
+                </div>
+            </div>
+
+            <div class="comp-desc-box">
+                <span class="detail-label-sub">PROPERTY DESCRIPTION</span>
+                <p id="pdpCompDesc" class="detail-text-main">... Loading description ...</p>
+            </div>
+
+            <!-- SIMILAR PROPERTIES -->
+            <div class="similar-section" id="similarSection">
+                <div class="similar-title">Nearby &amp; Similar Properties</div>
+                <div class="similar-scroll" id="similarContainer"></div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="pdp-footer">
+        <button class="btn-call" onclick="window.open('tel:8595833459')">CALL 📞</button>
+        <button class="btn-schedule" onclick="openSchedulerModal()">SLOT 📅</button>
+        <button class="btn-buy" id="pdpBuyBtn">BOOK VISIT 💬</button>
+    </div>
+</div>
+
+<!-- FULLSCREEN LIGHTBOX -->
+<div id="photoLightbox">
+    <div class="lightbox-nav-header">
+        <span class="lightbox-counter" id="lightboxCounter">1 / 1</span>
+        <span class="close-lightbox" onclick="closeFullscreenPhoto()">✕</span>
+    </div>
+    
+    <div class="lightbox-stage" id="lightboxStage">
+        <button class="lightbox-arrow lightbox-prev" onclick="prevLightboxSlide(event)">❮</button>
+        <img id="lightboxImg" src="" alt="Full Resolution Property Image">
+        <div id="lightboxVideoWrap"></div>
+        <button class="lightbox-arrow lightbox-next" onclick="nextLightboxSlide(event)">❯</button>
+    </div>
+</div>
+
+<!-- ABOUT MODAL -->
+<div id="aboutModal" class="custom-modal-overlay" style="position:fixed; inset:0; background:rgba(2,6,23,0.85); backdrop-filter:blur(8px); z-index:7000; display:none; align-items:center; justify-content:center; padding:16px;">
+    <div style="background:#0f172a; border:1px solid var(--primary); border-radius:14px; padding:18px; max-width:400px; width:100%;">
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:10px;">
+            <b style="color:var(--primary); font-size:14px;">🏢 About Yuvraj Properties</b>
+            <span onclick="closeModal('aboutModal')" style="color:#fff; cursor:pointer; font-weight:700;">✕</span>
+        </div>
+        <p style="font-size:12px; color:#cbd5e1; margin-bottom:10px; line-height:1.5;"><b>Yuvraj Properties &amp; Developer</b> provides transparent, direct, and verified property deals for Rent and Sale across Gurugram led by <b>Rahul Kumar</b>.</p>
+        <p style="font-size:11px; color:var(--text-dim); margin-bottom:14px;">⏰ Everyday: 9:00 AM – 9:00 PM | 📞 +91 8595833459</p>
+        <button class="btn-buy" style="width:100%; padding:10px;" onclick="openDirectWhatsApp('Inquiry via About Us')">Chat on WhatsApp</button>
+    </div>
+</div>
+
+<!-- PRIVACY POLICY MODAL -->
+<div id="privacyModal" class="custom-modal-overlay" style="position:fixed; inset:0; background:rgba(2,6,23,0.85); backdrop-filter:blur(8px); z-index:7000; display:none; align-items:center; justify-content:center; padding:16px;">
+    <div style="background:#0f172a; border:1px solid var(--primary); border-radius:14px; padding:18px; max-width:400px; width:100%;">
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:10px;">
+            <b style="color:var(--primary); font-size:14px;">🔒 Privacy Policy</b>
+            <span onclick="closeModal('privacyModal')" style="color:#fff; cursor:pointer; font-weight:700;">✕</span>
+        </div>
+        <p style="font-size:12px; color:var(--text-dim); margin-bottom:12px; line-height:1.5;">We strictly do not share your contact number or requirements with telemarketers or unauthorized third parties. All property visits are handled securely through official WhatsApp.</p>
+        <button class="btn-call" style="width:100%; padding:10px;" onclick="closeModal('privacyModal')">Understood</button>
+    </div>
+</div>
+
+<!-- WELCOME MODAL -->
+<div id="welcomeModal" class="custom-modal-overlay" style="position:fixed; inset:0; background:rgba(2,6,23,0.85); backdrop-filter:blur(8px); z-index:7000; display:none; align-items:center; justify-content:center; padding:16px;">
+    <div style="background:#0f172a; border:1px solid var(--primary); border-radius:14px; padding:18px; max-width:400px; width:100%;">
+        <h3 style="color:#fff; font-size:15px; margin-bottom:6px;">Find Your Dream Home in Gurugram</h3>
+        <p style="font-size:12px; color:var(--text-dim); margin-bottom:12px;">Explore verified rental flats, builder floors &amp; luxury apartments for rent &amp; sale all over Gurugram.</p>
+        <button class="btn-buy" style="width:100%; padding:12px;" onclick="closeModal('welcomeModal')">Start Exploring Listings →</button>
+    </div>
+</div>
+
+<!-- APP SUPPORT MODAL (CLIENT SUPPORT & DESK POPUP) -->
+<div id="supportModal" class="custom-modal-overlay" style="position:fixed; inset:0; background:rgba(2,6,23,0.88); backdrop-filter:blur(10px); z-index:7500; display:none; align-items:center; justify-content:center; padding:16px;">
+    <div style="background:#0f172a; border:1.5px solid var(--primary); border-radius:16px; padding:20px; max-width:420px; width:100%; box-shadow:0 12px 40px rgba(0,0,0,0.85); animation:cardEntrance 0.25s ease;">
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:14px; border-bottom:1px solid rgba(255,255,255,0.08); padding-bottom:10px;">
+            <div style="display:flex; align-items:center; gap:8px;">
+                <span style="font-size:20px;">🎧</span>
+                <b style="color:var(--primary); font-size:15px; text-transform:uppercase; letter-spacing:0.5px;">App &amp; Client Support</b>
+            </div>
+            <span onclick="closeModal('supportModal')" style="color:#fff; cursor:pointer; font-weight:700; font-size:18px; line-height:1; padding:4px;">✕</span>
+        </div>
+        <p style="font-size:12px; color:var(--text-dim); margin-bottom:14px; line-height:1.5;">
+            Need help finding verified properties, scheduling visits, or facing any issue in the app? Connect directly with our Gurugram executive desk.
+        </p>
+        <div style="display:flex; flex-direction:column; gap:10px; margin-bottom:16px;">
+            <button class="btn-buy" style="width:100%; padding:11px 14px; display:flex; align-items:center; justify-content:center; gap:8px; font-size:12px;" onclick="openDirectWhatsApp('Hello Support, I need help regarding Yuvraj Properties App / Property Listing.')">
+                <span>💬</span> Chat with Official Support
+            </button>
+            <button class="btn-call" style="width:100%; padding:11px 14px; display:flex; align-items:center; justify-content:center; gap:8px; font-size:12px;" onclick="window.open('tel:8595833459')">
+                <span>📞</span> Direct Support Helpline (+91 8595833459)
+            </button>
+        </div>
+        <div style="background:rgba(255,255,255,0.03); border:1px solid rgba(255,255,255,0.06); border-radius:10px; padding:10px 12px; font-size:11px; color:var(--text-dim); line-height:1.6;">
+            <div>⏰ <b>Support Hours:</b> Monday – Sunday, 9:00 AM – 9:00 PM</div>
+            <div>📍 <b>Location:</b> Gurugram, Haryana</div>
+            <div>📱 <b>App Version:</b> <span id="appSupportVerLabel" style="color:#cbd5e1; font-weight:600;">v4.0.0</span> (Official Stable)</div>
+        </div>
+    </div>
+</div>
+
+<!-- FILTER MODAL DRAWER (RENT & SALE) -->
+<div id="filterPage" style="position:fixed; top:0; left:0; width:100%; height:100%; background:var(--bg); z-index:6000; display:none; flex-direction:column;">
+    <div style="padding:16px 20px; display:flex; justify-content:space-between; align-items:center; border-bottom:1px solid rgba(255,255,255,0.1);">
+        <span style="font-weight:700; color:var(--primary);">Property Filters</span>
+        <span onclick="closeFilters()" style="color:var(--text-dim); cursor:pointer; font-weight:600; font-size:13px;">✕ CLOSE</span>
+    </div>
+    <div style="flex:1; display:flex; background:#0f172a; overflow:hidden;">
+        <div style="width:36%; background:#020617; overflow-y:auto;">
+            <div class="f-tab-btn active" style="padding:16px 12px; font-size:12px; border-bottom:1px solid rgba(255,255,255,0.05); cursor:pointer; color:var(--primary); font-weight:700;" onclick="showTab('propertyType', this)">Rent / Sale</div>
+            <div class="f-tab-btn" style="padding:16px 12px; font-size:12px; border-bottom:1px solid rgba(255,255,255,0.05); cursor:pointer; color:var(--text-dim);" onclick="showTab('bhk', this)">BHK</div>
+            <div class="f-tab-btn" style="padding:16px 12px; font-size:12px; border-bottom:1px solid rgba(255,255,255,0.05); cursor:pointer; color:var(--text-dim);" onclick="showTab('price', this)">Budget</div>
+            <div class="f-tab-btn" style="padding:16px 12px; font-size:12px; border-bottom:1px solid rgba(255,255,255,0.05); cursor:pointer; color:var(--text-dim);" onclick="showTab('sector', this)">Sectors</div>
+            <div class="f-tab-btn" style="padding:16px 12px; font-size:12px; border-bottom:1px solid rgba(255,255,255,0.05); cursor:pointer; color:var(--text-dim);" onclick="showTab('furnish', this)">Furnishing</div>
+            <div class="f-tab-btn" style="padding:16px 12px; font-size:12px; border-bottom:1px solid rgba(255,255,255,0.05); cursor:pointer; color:var(--text-dim);" onclick="showTab('possession', this)">Possession</div>
+        </div>
+        <div id="filterOptions" style="flex:1; background:var(--card-bg); padding:15px; overflow-y:auto;"></div>
+    </div>
+    <div style="padding:12px 16px; display:flex; gap:10px; background:var(--dark); border-top:1px solid rgba(255,255,255,0.1);">
+        <button class="btn-call" style="flex:1; padding:12px;" onclick="clearFilters()">Reset All</button>
+        <button class="btn-buy" style="flex:1; padding:12px;" onclick="applyFilters()">Apply</button>
+    </div>
+</div>
+
+<div id="toast">Link copied to clipboard!</div>
+
+<script type="module">
+    import { initializeApp, getApps, getApp } from "https://www.gstatic.com/firebasejs/9.17.1/firebase-app.js";
+    import { getFirestore, collection, getDocs, doc, getDoc } from "https://www.gstatic.com/firebasejs/9.17.1/firebase-firestore.js";
+
+    const firebaseConfig = {
+      apiKey: "AIzaSyBRQU2V576OXBWKq8nHUJMiW0YUsWBgaW4",
+      authDomain: "yuvraj-properties.firebaseapp.com",
+      projectId: "yuvraj-properties",
+      storageBucket: "yuvraj-properties.firebasestorage.app",
+      messagingSenderId: "591264229381",
+      appId: "1:591264229381:web:3b07a4fdb355c22816d46c"
+    };
+
+    // Safe instance check to avoid duplicate app errors with app-support.js
+    const app = getApps().length ? getApp() : initializeApp(firebaseConfig);
+    const firestore = getFirestore(app);
+    window.ypFirebaseApp = app;
+
+    // SPLASH SCREEN REMOVAL & FOOTER MODAL HANDLERS
+    window.addEventListener('DOMContentLoaded', () => {
+        setTimeout(() => {
+            const splash = document.getElementById('brandSplashScreen');
+            if (splash) {
+                splash.style.opacity = '0';
+                setTimeout(() => splash.style.display = 'none', 400);
+            }
+        }, 900);
+    });
+
+    window.openFooterModal = (cardId) => {
+        const card = document.getElementById(cardId);
+        if (card) card.style.display = 'flex';
+        history.pushState({ modal: 'footerCard' }, '');
+    };
+
+    window.closeFooterModalDirect = (cardId) => {
+        const card = document.getElementById(cardId);
+        if (card) card.style.display = 'none';
+        if (history.state && history.state.modal === 'footerCard') history.back();
+    };
+
+    window.closeFooterModal = (e, cardId) => {
+        if (e.target.classList.contains('footer-modal-backdrop')) {
+            window.closeFooterModalDirect(cardId);
+        }
+    };
+
+    function escapeHTML(str) {
+        if (!str && str !== 0) return '';
+        return String(str).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&#39;');
+    }
+
+    function getYouTubeId(urlOrId) {
+        if (!urlOrId) return null;
+        const str = String(urlOrId).trim();
+        if (/^[a-zA-Z0-9_-]{11}$/.test(str)) return str;
+        const match = str.match(/(?:youtu\.be\/|youtube\.com\/(?:embed\/|v\/|watch\?v=|watch\?.+&v=|shorts\/))([\w-]{11})/);
+        return match ? match[1] : str;
+    }
+
+    const filterData = {
+        propertyType: ["Rent", "Sale"],
+        bhk: ["1 RK", "1 BHK", "2 BHK", "3 BHK", "4 BHK", "Villa"],
+        price: [
+            { label: "All Budgets", min: 0, max: 999999999 },
+            { label: "Under ₹15,000", min: 0, max: 15000 },
+            { label: "₹15,000 - ₹30,000", min: 15000, max: 30000 },
+            { label: "₹30,000 - ₹50,000", min: 30000, max: 50000 },
+            { label: "₹50,000 - ₹75,000", min: 50000, max: 75000 },
+            { label: "₹75,000 - ₹1,00,000", min: 75000, max: 100000 },
+            { label: "₹1 Lakh +", min: 100000, max: 999999999 }
+        ],
+        sector: Array.from({length: 115}, (_, i) => `Sector ${i + 1}`).concat([
+            "DLF Phase 1", "DLF Phase 2", "DLF Phase 3", "DLF Phase 4", "DLF Phase 5",
+            "Sushant Lok 1", "Sushant Lok 2", "Sushant Lok 3", "Golf Course Road", 
+            "Golf Course Ext Road", "Sohna Road", "Palam Vihar", "MG Road", "Cyber City", "Udyog Vihar"
+        ]),
+        furnish: ["Unfurnished", "Semi-Furnished", "Fully Furnished"],
+        tenant: ["Bachelors", "Family", "Company Lease", "For All"]
+    };
+
+    let activeFilters = { 
+        propertyType: [], bhk: [], 
+        priceRange: { min: 0, max: 999999999 }, 
+        sector: [], furnish: [], tenant: [], 
+        pCode: "", possessionType: 'All', possessionDate: null 
+    };
+
+    let db = [];
+    let favorites = JSON.parse(localStorage.getItem('yp_favorites') || '[]');
+    let compareList = [];
+    let isFavoritesOnly = false;
+    let quickSearchQuery = "";
+    let currentOpenProperty = null;
+    let currentSortOrder = 'featured';
+
+    let currentLightboxMedia = [];
+    let currentLightboxIdx = 0;
+    let selectedVisitSlot = '10:00 AM - 12:00 PM';
+    let currentBaseSqFt = 0;
+
+    function showToast(msg) {
+        const toast = document.getElementById('toast');
+        toast.innerText = msg;
+        toast.style.display = 'block';
+        setTimeout(() => { toast.style.display = 'none'; }, 2000);
+    }
+
+    function updateOnlineStatus() {
+        const banner = document.getElementById('offlineBanner');
+        if (!navigator.onLine) banner.style.display = 'block';
+        else banner.style.display = 'none';
+    }
+    window.addEventListener('online', updateOnlineStatus);
+    window.addEventListener('offline', updateOnlineStatus);
+    updateOnlineStatus();
+
+    window.openModal = (id) => {
+        const m = document.getElementById(id);
+        if (m) m.style.display = 'flex';
+    };
+    window.closeModal = (id) => {
+        const m = document.getElementById(id);
+        if (m) m.style.display = 'none';
+    };
+
+    window.openDirectWhatsApp = (customMsg) => {
+        const text = encodeURIComponent(customMsg || "Hello Rahul ji, I am looking for property in Gurugram.");
+        window.open(`https://wa.me/918595833459?text=${text}`);
+    };
+
+    window.toggleFaq = (el) => {
+        const parent = el.parentElement;
+        const answer = parent.querySelector('.faq-a');
+        if (answer.style.display === 'block') answer.style.display = 'none';
+        else answer.style.display = 'block';
+    };
+
+    window.applySortOrder = (order, el) => {
+        document.querySelectorAll('.sort-btn').forEach(b => b.classList.remove('active'));
+        el.classList.add('active');
+        currentSortOrder = order;
+        renderActiveListings();
+    };
+
+    window.setUnitConversion = (unit, el) => {
+        document.querySelectorAll('.conv-pill').forEach(p => p.classList.remove('active'));
+        el.classList.add('active');
+        const textEl = document.getElementById('convValText');
+        if (!currentBaseSqFt) return;
+        if (unit === 'sqft') textEl.innerText = `${currentBaseSqFt.toLocaleString('en-IN')} Sq. Ft`;
+        else if (unit === 'gaj') textEl.innerText = `${Math.round(currentBaseSqFt / 9).toLocaleString('en-IN')} Gaj`;
+        else if (unit === 'sqyd') textEl.innerText = `${Math.round(currentBaseSqFt / 9).toLocaleString('en-IN')} Sq. Yd`;
+    };
+
+    window.calculateSaleEMI = () => {
+        if (!currentOpenProperty) return;
+        const price = Number(currentOpenProperty.price || 0);
+        const loanAmount = price * 0.8;
+        const tenureYears = Number(document.getElementById('loanTenureSlider').value);
+        const annualRate = Number(document.getElementById('loanRateSlider').value);
+
+        document.getElementById('tenureLabel').innerText = `${tenureYears} Yrs`;
+        document.getElementById('rateLabel').innerText = `${annualRate}%`;
+
+        const r = (annualRate / 12) / 100;
+        const n = tenureYears * 12;
+        let emi = 0;
+        if (r > 0 && n > 0) {
+            emi = Math.round((loanAmount * r * Math.pow(1 + r, n)) / (Math.pow(1 + r, n) - 1));
+        }
+        document.getElementById('cEmiVal').innerText = `₹${emi.toLocaleString('en-IN')} / mo`;
+    };
+
+    window.openSchedulerModal = () => {
+        const modal = document.getElementById('schedulerModal');
+        const today = new Date().toISOString().split('T')[0];
+        const dateInput = document.getElementById('visitDateInput');
+        dateInput.value = today;
+        dateInput.min = today;
+        modal.style.display = 'flex';
+        history.pushState({ modal: 'scheduler' }, '');
+    };
+    window.closeSchedulerModal = () => {
+        document.getElementById('schedulerModal').style.display = 'none';
+        if (history.state && history.state.modal === 'scheduler') history.back();
+    };
+    window.selectSlot = (slot, el) => {
+        document.querySelectorAll('.slot-btn').forEach(b => b.classList.remove('active'));
+        el.classList.add('active');
+        selectedVisitSlot = slot;
+    };
+    window.confirmScheduledVisitWhatsApp = () => {
+        if (!currentOpenProperty) return;
+        const date = document.getElementById('visitDateInput').value || 'Earliest available';
+        const msg = `*🏡 SCHEDULED VISIT REQUEST*%0A` +
+                    `*ID:* ${encodeURIComponent(currentOpenProperty.pCode || 'N/A')}%0A` +
+                    `*Flat:* ${encodeURIComponent(currentOpenProperty.title || '')}%0A` +
+                    `*Sector:* ${encodeURIComponent(currentOpenProperty.sector || 'Gurugram')}%0A` +
+                    `*Date:* ${encodeURIComponent(date)}%0A` +
+                    `*Slot:* ${encodeURIComponent(selectedVisitSlot)}%0A` +
+                    `------------------------------%0A` +
+                    `Hello Rahul Kumar, please confirm this site visit.`;
+        window.open(`https://wa.me/918595833459?text=${msg}`);
+        window.closeSchedulerModal();
+    };
+
+    window.openShareBottomSheet = () => {
+        if (!currentOpenProperty) return;
+        const p = currentOpenProperty;
+        const shareUrl = `${window.location.origin}${window.location.pathname}?id=${p.id}`;
+        const shareText = `Check out this property in ${p.sector || 'Gurugram'}: ₹${Number(p.price || 0).toLocaleString('en-IN')}`;
+        const encodedUrl = encodeURIComponent(shareUrl);
+        const encodedCombined = encodeURIComponent(`${shareText}\n${shareUrl}`);
+
+        document.getElementById('sheetWhatsApp').href = `https://api.whatsapp.com/send?text=${encodedCombined}`;
+        document.getElementById('sheetMessenger').href = `fb-messenger://share/?link=${encodedUrl}`;
+        document.getElementById('sheetSnapchat').href = `snapchat://send?text=${encodedCombined}`;
+        document.getElementById('sheetMessages').href = `sms:?body=${encodedCombined}`;
+        document.getElementById('sheetFacebook').href = `https://www.facebook.com/sharer/sharer.php?u=${encodedUrl}`;
+        document.getElementById('sheetTelegram').href = `https://t.me/share/url?url=${encodedUrl}&text=${encodeURIComponent(shareText)}`;
+
+        const overlay = document.getElementById('shareBottomSheetOverlay');
+        overlay.style.display = 'flex';
+        setTimeout(() => overlay.classList.add('active'), 10);
+        history.pushState({ modal: 'shareSheet' }, '');
+    };
+
+    window.closeShareBottomSheet = (e) => {
+        if (e && e.target && e.target.closest('.share-sheet') && !e.target.closest('.share-sheet-header span')) {
+            return;
+        }
+        const overlay = document.getElementById('shareBottomSheetOverlay');
+        overlay.classList.remove('active');
+        setTimeout(() => {
+            overlay.style.display = 'none';
+            if (history.state && history.state.modal === 'shareSheet') history.back();
+        }, 250);
+    };
+
+    window.copyShareLinkFromSheet = () => {
+        if (!currentOpenProperty) return;
+        const shareUrl = `${window.location.origin}${window.location.pathname}?id=${currentOpenProperty.id}`;
+        navigator.clipboard.writeText(shareUrl).then(() => {
+            showToast("Link copied to clipboard! 📋");
+            window.closeShareBottomSheet();
+        });
+    };
+
+    window.triggerSystemQuickShare = () => {
+        if (!currentOpenProperty) return;
+        const p = currentOpenProperty;
+        const shareUrl = `${window.location.origin}${window.location.pathname}?id=${p.id}`;
+        const shareText = `Check out this property in ${p.sector || 'Gurugram'}: ₹${Number(p.price || 0).toLocaleString('en-IN')}`;
+        if (navigator.share) {
+            navigator.share({ title: p.title, text: shareText, url: shareUrl }).catch(() => {});
+            window.closeShareBottomSheet();
+        } else {
+            window.copyShareLinkFromSheet();
+        }
+    };
+
+    window.inquireRahulDirectFromShare = () => {
+        if (!currentOpenProperty) return;
+        const p = currentOpenProperty;
+        const shareUrl = `${window.location.origin}${window.location.pathname}?id=${p.id}`;
+        const msg = `*🏡 PROPERTY INQUIRY VIA SHARE*%0A*ID:* ${encodeURIComponent(p.pCode || 'N/A')}%0A*Flat:* ${encodeURIComponent(p.title || '')}%0A*Price:* ₹${Number(p.price || 0).toLocaleString('en-IN')}%0A*Link:* ${encodeURIComponent(shareUrl)}`;
+        window.open(`https://wa.me/918595833459?text=${msg}`);
+        window.closeShareBottomSheet();
+    };
+
+    function calculateDynamicCommute(sectorRaw) {
+        const str = (sectorRaw || '').trim().toLowerCase();
+        let secNum = parseInt(str.replace(/\D/g, ''), 10) || 45;
+
+        let dCyber = 10, dMetro = 3, dGolf = 5, dAirport = 18;
+        let tCyber = 16, tMetro = 7, tGolf = 10, tAirport = 24;
+
+        if (str.includes('cyber') || str.includes('dlf phase 2') || str.includes('dlf phase 3') || (secNum >= 24 && secNum <= 26)) {
+            dCyber = 1.5; tCyber = 4;
+            dMetro = 1.2; tMetro = 4;
+            dGolf = 5.2;  tGolf = 9;
+            dAirport = 11; tAirport = 15;
+        } else if (str.includes('dlf phase 1') || str.includes('sushant lok 1') || str.includes('mg road') || (secNum >= 27 && secNum <= 28)) {
+            dCyber = 5.0; tCyber = 11;
+            dMetro = 1.5; tMetro = 5;
+            dGolf = 2.8;  tGolf = 6;
+            dAirport = 14.5; tAirport = 20;
+        } else if (str.includes('golf course rd') || str.includes('dlf phase 5') || (secNum >= 42 && secNum <= 54)) {
+            dCyber = 7.5; tCyber = 13;
+            dMetro = 1.8; tMetro = 5;
+            dGolf = 1.0;  tGolf = 3;
+            dAirport = 18; tAirport = 23;
+        } else if (str.includes('golf course ext') || str.includes('sector 55') || str.includes('sector 56') || str.includes('sector 57') || (secNum >= 58 && secNum <= 67)) {
+            dCyber = 13.5; tCyber = 22;
+            dMetro = 3.5;  tMetro = 8;
+            dGolf = 4.2;   tGolf = 7;
+            dAirport = 23; tAirport = 31;
+        } else if (str.includes('sohna') || (secNum >= 47 && secNum <= 50) || (secNum >= 68 && secNum <= 72)) {
+            dCyber = 12.0; tCyber = 19;
+            dMetro = 5.5;  tMetro = 12;
+            dGolf = 6.5;   tGolf = 12;
+            dAirport = 21; tAirport = 28;
+        } else if (str.includes('palam vihar') || str.includes('udyog vihar') || (secNum >= 1 && secNum <= 23)) {
+            dCyber = 6.0;  tCyber = 12;
+            dMetro = 4.0;  tMetro = 10;
+            dGolf = 11.0;  tGolf = 19;
+            dAirport = 13.5; tAirport = 18;
+        } else if (secNum >= 81 && secNum <= 115) {
+            dCyber = 21.0; tCyber = 28;
+            dMetro = 16.0; tMetro = 25;
+            dGolf = 22.0;  tGolf = 30;
+            dAirport = 22; tAirport = 24;
+        } else {
+            dCyber = 9.5;  tCyber = 15;
+            dMetro = 2.8;  tMetro = 6;
+            dGolf = 5.0;   tGolf = 9;
+            dAirport = 17.5; tAirport = 23;
+        }
+
+        document.getElementById('commuteCyber').innerText = `${dCyber} km (~${tCyber} mins)`;
+        document.getElementById('commuteMetro').innerText = `${dMetro} km (~${tMetro} mins)`;
+        document.getElementById('commuteGolf').innerText = `${dGolf} km (~${tGolf} mins)`;
+        document.getElementById('commuteAirport').innerText = `${dAirport} km (~${tAirport} mins)`;
+        document.getElementById('commuteSectorName').innerText = sectorRaw || 'Sector';
+    }
+
+    window.toggleCompare = (id, event) => {
+        event.stopPropagation();
+        if (compareList.includes(id)) {
+            compareList = compareList.filter(x => x !== id);
+        } else {
+            if (compareList.length >= 3) {
+                showToast("Compare up to 3 properties max");
+                event.target.checked = false;
+                return;
+            }
+            compareList.push(id);
+        }
+        updateCompareTray();
+    };
+
+    function updateCompareTray() {
+        const tray = document.getElementById('compareTray');
+        const countLabel = document.getElementById('compareCountLabel');
+        if (compareList.length > 0) {
+            tray.style.display = 'flex';
+            countLabel.innerText = `${compareList.length} Selected`;
+        } else {
+            tray.style.display = 'none';
+        }
+    }
+
+    window.clearCompareSelection = () => {
+        compareList = [];
+        updateCompareTray();
+        renderActiveListings();
+    };
+
+    window.openCompareModal = () => {
+        const modal = document.getElementById('compareModal');
+        const table = document.getElementById('compareTable');
+        const items = db.filter(p => compareList.includes(p.id));
+
+        if (!items.length) return;
+
+        let headers = `<tr><th style="color:var(--primary);">Specs</th>` + items.map(p => `<th style="color:var(--primary); font-weight:800;">${escapeHTML(p.pCode || 'Flat')}<br>₹${Number(p.price).toLocaleString('en-IN')}</th>`).join('') + `</tr>`;
+        let rows = `
+            <tr><td><b>Title</b></td>${items.map(p => `<td>${escapeHTML(p.title)}</td>`).join('')}</tr>
+            <tr><td><b>Type</b></td>${items.map(p => `<td>${((p.pType === 'Buy' ? 'Sale' : p.pType) || 'Rent')}</td>`).join('')}</tr>
+            <tr><td><b>BHK</b></td>${items.map(p => `<td>${escapeHTML(p.bhk)}</td>`).join('')}</tr>
+            <tr><td><b>Sector</b></td>${items.map(p => `<td>${escapeHTML(p.sector)}</td>`).join('')}</tr>
+            <tr><td><b>Furnishing</b></td>${items.map(p => `<td>${escapeHTML(p.furnish)}</td>`).join('')}</tr>
+            <tr><td><b>Floor</b></td>${items.map(p => `<td>${escapeHTML(p.floor || 'Standard')}</td>`).join('')}</tr>
+            <tr><td><b>Maintenance</b></td>${items.map(p => `<td>${escapeHTML(p.maintenance || 'Included')}</td>`).join('')}</tr>
+            <tr><td><b>Action</b></td>${items.map(p => `<td><button class="btn-buy" style="padding:6px 10px; font-size:10px;" onclick="openPDP('${p.id}'); closeCompareModal();">View</button></td>`).join('')}</tr>
+        `;
+
+        table.innerHTML = headers + rows;
+        modal.style.display = 'flex';
+        history.pushState({ modal: 'compare' }, '');
+    };
+
+    window.closeCompareModal = () => {
+        document.getElementById('compareModal').style.display = 'none';
+        if (history.state && history.state.modal === 'compare') history.back();
+    };
+
+    window.openFullscreenPhoto = () => {
+        if (!currentOpenProperty) return;
+        const rawImgs = Array.isArray(currentOpenProperty.img) ? currentOpenProperty.img : (currentOpenProperty.img ? [currentOpenProperty.img] : []);
+        const vid = getYouTubeId(currentOpenProperty.videoID);
+
+        currentLightboxMedia = rawImgs.map(src => ({ type: 'image', src }));
+        if (vid) currentLightboxMedia.push({ type: 'video', id: vid });
+
+        if (!currentLightboxMedia.length) {
+            showToast("No media available");
+            return;
+        }
+
+        const container = document.getElementById('pdpImgContainer');
+        const width = container.clientWidth || 1;
+        const visibleIdx = Math.min(currentLightboxMedia.length - 1, Math.max(0, Math.round(container.scrollLeft / width)));
+        currentLightboxIdx = visibleIdx;
+
+        updateLightboxView();
+        document.getElementById('photoLightbox').style.display = 'flex';
+        document.body.style.overflow = 'hidden';
+
+        history.pushState({ modal: 'lightbox' }, '');
+    };
+
+    window.closeFullscreenPhoto = () => {
+        const lightbox = document.getElementById('photoLightbox');
+        if (lightbox.style.display === 'flex') {
+            lightbox.style.display = 'none';
+            document.getElementById('lightboxImg').src = '';
+            document.getElementById('lightboxVideoWrap').innerHTML = '';
+            document.body.style.overflow = 'auto';
+
+            if (history.state && history.state.modal === 'lightbox') history.back();
+        }
+    };
+
+    window.prevLightboxSlide = (e) => {
+        if (e) e.stopPropagation();
+        if (!currentLightboxMedia.length) return;
+        currentLightboxIdx = (currentLightboxIdx > 0) ? currentLightboxIdx - 1 : currentLightboxMedia.length - 1;
+        updateLightboxView();
+    };
+
+    window.nextLightboxSlide = (e) => {
+        if (e) e.stopPropagation();
+        if (!currentLightboxMedia.length) return;
+        currentLightboxIdx = (currentLightboxIdx < currentLightboxMedia.length - 1) ? currentLightboxIdx + 1 : 0;
+        updateLightboxView();
+    };
+
+    function updateLightboxView() {
+        if (!currentLightboxMedia.length) return;
+        const item = currentLightboxMedia[currentLightboxIdx];
+        const imgEl = document.getElementById('lightboxImg');
+        const vidWrap = document.getElementById('lightboxVideoWrap');
+
+        if (item.type === 'image') {
+            vidWrap.innerHTML = '';
+            vidWrap.style.display = 'none';
+            imgEl.src = item.src;
+            imgEl.style.display = 'block';
+        } else if (item.type === 'video') {
+            imgEl.style.display = 'none';
+            imgEl.src = '';
+            vidWrap.style.display = 'block';
+            vidWrap.innerHTML = `<iframe src="https://www.youtube-nocookie.com/embed/${escapeHTML(item.id)}?enablejsapi=1&autoplay=1&mute=1&playsinline=1&rel=0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>`;
+        }
+        document.getElementById('lightboxCounter').innerText = `${currentLightboxIdx + 1} / ${currentLightboxMedia.length}`;
+    }
+
+    let touchStartX = 0;
+    const stage = document.getElementById('lightboxStage');
+    stage.addEventListener('touchstart', (e) => { touchStartX = e.changedTouches[0].screenX; }, {passive: true});
+    stage.addEventListener('touchend', (e) => {
+        const diff = touchStartX - e.changedTouches[0].screenX;
+        if (diff > 45) window.nextLightboxSlide();
+        else if (diff < -45) window.prevLightboxSlide();
+    }, {passive: true});
+
+    window.filterBySectorQuick = (sec) => {
+        document.querySelectorAll('.seo-tag-pill').forEach(pill => {
+            pill.classList.remove('active-pill');
+            if ((!sec && pill.innerText === 'All Gurugram') || (sec && pill.innerText.includes(sec))) {
+                pill.classList.add('active-pill');
+            }
+        });
+        activeFilters.sector = sec ? [sec] : [];
+        renderActiveListings();
+    };
+
+    function safelyDisplayFooter() {
+        const footer = document.getElementById('siteFooter');
+        if (footer) {
+            footer.classList.add('hydrated');
+        }
+    }
+
+    const cachedDb = localStorage.getItem('yp_cached_db');
+    if (cachedDb) {
+        try {
+            const parsed = JSON.parse(cachedDb);
+            if (Array.isArray(parsed) && parsed.length > 0) {
+                db = parsed;
+                updateFavoritesNav();
+                renderActiveListings();
+                safelyDisplayFooter();
+            }
+        } catch(e) {}
+    }
+
+    async function initDB() {
+        try {
+            const querySnapshot = await getDocs(collection(firestore, "properties"));
+            db = querySnapshot.docs.map(doc => ({ id: doc.id, ...doc.data() }));
+            localStorage.setItem('yp_cached_db', JSON.stringify(db));
+            
+            updateFavoritesNav();
+            renderActiveListings();
+            safelyDisplayFooter();
+            handleDeepLinks();
+        } catch (e) { 
+            safelyDisplayFooter();
+            if (db.length === 0) {
+                document.getElementById('mainGrid').innerHTML = `
+                    <div class="empty-state">
+                        <div class="empty-radar"><div class="empty-icon">⚠️</div></div>
+                        <p style="color: var(--primary); font-weight: 600;">Server Error! Please try again later.</p>
+                    </div>`;
+            }
+        }
+    }
+
+    document.getElementById('quickSearchInput').addEventListener('input', (e) => {
+        quickSearchQuery = e.target.value.trim().toLowerCase();
+        renderActiveListings();
+    });
+
+    window.addEventListener('popstate', (e) => {
+        const shareSheet = document.getElementById('shareBottomSheetOverlay');
+        if (shareSheet && shareSheet.classList.contains('active')) {
+            shareSheet.classList.remove('active');
+            setTimeout(() => shareSheet.style.display = 'none', 250);
+            return;
+        }
+
+        const lightbox = document.getElementById('photoLightbox');
+        if (lightbox && lightbox.style.display === 'flex') {
+            lightbox.style.display = 'none';
+            document.getElementById('lightboxImg').src = '';
+            document.getElementById('lightboxVideoWrap').innerHTML = '';
+            document.body.style.overflow = 'auto';
+            return;
+        }
+
+        const compareModal = document.getElementById('compareModal');
+        if (compareModal && compareModal.style.display === 'flex') {
+            compareModal.style.display = 'none';
+            return;
+        }
+
+        const scheduler = document.getElementById('schedulerModal');
+        if (scheduler && scheduler.style.display === 'flex') {
+            scheduler.style.display = 'none';
+            return;
+        }
+
+        const filterPage = document.getElementById('filterPage');
+        if (filterPage && filterPage.style.display === 'flex') {
+            filterPage.style.display = 'none';
+            return;
+        }
+
+        // Close footer modal cards on popstate if open
+        ['aboutModalCard', 'supportModalCard', 'privacyModalCard', 'guideModalCard'].forEach(id => {
+            const el = document.getElementById(id);
+            if (el && el.style.display === 'flex') el.style.display = 'none';
+        });
+
+        const pdp = document.getElementById('pdpPage');
+        if (pdp && pdp.style.display === 'flex') {
+            document.getElementById('pdpImgContainer').innerHTML = "";
+            pdp.style.display = 'none';
+            currentOpenProperty = null;
+            document.title = "Yuvraj Properties & Developer | Verified Flats, Luxury Builder Floors for Rent & Sale in Gurugram";
+        }
+    });
+
+    function handleDeepLinks() {
+        const params = new URLSearchParams(window.location.search);
+        const id = params.get('id');
+        const code = params.get('code');
+        const sectorParam = params.get('sector');
+
+        if (sectorParam) window.filterBySectorQuick(sectorParam);
+        if (id) {
+            const match = db.find(p => p.id === id);
+            if (match) openPDP(match.id, false);
+        } else if (code) {
+            const match = db.find(p => p.pCode && p.pCode.toUpperCase() === code.toUpperCase());
+            if (match) openPDP(match.id, false);
+        }
+    }
+
+    function render(data) {
+        const grid = document.getElementById('mainGrid');
+        if (data.length === 0) {
+            grid.innerHTML = `
+                <div class="empty-state">
+                    <div class="empty-radar"><div class="empty-icon">🕵️‍♂️</div></div>
+                    <p style="color: var(--text-dim); font-size:13px; font-weight: 500;">No properties match your selection.</p>
+                    <button onclick="goHome()" style="margin-top:14px; background:rgba(255,255,255,0.08); border:1px solid var(--primary); color:var(--primary); padding:6px 14px; border-radius:20px; font-size:12px; cursor:pointer;">Show All Properties</button>
+                </div>`;
+            return;
+        }
+
+        grid.innerHTML = data.map((p, idx) => {
+            const thumb = Array.isArray(p.img) && p.img.length ? p.img[0] : (typeof p.img === 'string' ? p.img.split('\n')[0] : 'https://via.placeholder.com/300x200?text=No+Photo');
+            const isFav = favorites.includes(p.id);
+            const isChecked = compareList.includes(p.id);
+            const price = Number(p.price || 0);
+            
+            const isSale = (p.pType || '').toLowerCase() === 'sale' || (p.pType || '').toLowerCase() === 'buy';
+            const typeLabel = isSale ? 'SALE' : 'RENT';
+
+            let dealBadge = '';
+            if (p.isHotDeal === true) {
+                dealBadge = `<span class="badge-tag badge-hot">🔥 Hot Deal</span>`;
+            } else if (isSale) {
+                dealBadge = `<span class="badge-tag badge-sale">For Sale</span>`;
+            }
+
+            return `
+            <article class="card" data-id="${escapeHTML(p.id)}" style="animation-delay: ${Math.min(idx * 0.04, 0.3)}s">
+                <div class="card-img-wrap">
+                    <div class="card-badges">
+                        <span class="badge-tag">Verified</span>
+                        ${dealBadge}
+                    </div>
+                    <img src="${escapeHTML(thumb)}" loading="lazy" decoding="async" width="300" height="206" alt="${escapeHTML(p.title || 'Property in Gurugram')}">
+                    <button class="card-fav-btn ${isFav ? 'active' : ''}" data-fav-id="${escapeHTML(p.id)}" title="Save Property">
+                        ${isFav ? '❤️' : '🤍'}
+                    </button>
+                </div>
+                <div class="card-info">
+                    <div>
+                        <div class="badge-type">${typeLabel} ${p.pCode ? '[' + escapeHTML(p.pCode) + ']' : ''}</div>
+                        <div class="price">₹${price.toLocaleString('en-IN')}</div>
+                        <h3 class="title">${escapeHTML(p.title || 'Untitled Property')}</h3>
+                    </div>
+                    <div class="card-bottom-row">
+                        <div class="possession-tag">● ${escapeHTML(p.possessionDate || p.status || 'Immediate')}</div>
+                        <label class="compare-toggle-label" onclick="event.stopPropagation();">
+                            <input type="checkbox" ${isChecked ? 'checked' : ''} onchange="window.toggleCompare('${escapeHTML(p.id)}', event)">
+                            Compare
+                        </label>
+                    </div>
+                </div>
+            </article>`;
+        }).join('');
+
+        safelyDisplayFooter();
+    }
+
+    document.getElementById('mainGrid').addEventListener('click', (e) => {
+        const favBtn = e.target.closest('.card-fav-btn');
+        if (favBtn) {
+            e.stopPropagation();
+            toggleFavorite(favBtn.dataset.favId);
+            return;
+        }
+        const card = e.target.closest('.card');
+        if (card && card.dataset.id) openPDP(card.dataset.id);
+    });
+
+    window.goHome = () => {
+        const shareSheet = document.getElementById('shareBottomSheetOverlay');
+        if (shareSheet) {
+            shareSheet.classList.remove('active');
+            shareSheet.style.display = 'none';
+        }
+
+        const lightbox = document.getElementById('photoLightbox');
+        if (lightbox) lightbox.style.display = 'none';
+
+        document.getElementById('pdpImgContainer').innerHTML = "";
+        document.getElementById('pdpPage').style.display = 'none';
+        document.getElementById('filterPage').style.display = 'none';
+        document.getElementById('compareModal').style.display = 'none';
+        document.getElementById('schedulerModal').style.display = 'none';
+        currentOpenProperty = null;
+
+        isFavoritesOnly = false;
+        quickSearchQuery = "";
+        document.getElementById('quickSearchInput').value = "";
+        document.getElementById('wishlistBanner').style.display = 'none';
+
+        document.getElementById('navHomeBtn').classList.add('active-nav');
+        document.getElementById('navFavBtn').classList.remove('active-nav');
+
+        document.querySelectorAll('.seo-tag-pill').forEach(pill => pill.classList.remove('active-pill'));
+        const firstPill = document.querySelector('.seo-tag-pill');
+        if (firstPill) firstPill.classList.add('active-pill');
+
+        activeFilters = { 
+            propertyType: [], bhk:[], priceRange: { min: 0, max: 999999999 }, 
+            sector:[], furnish:[], tenant:[], pCode: "", possessionType: 'All', possessionDate: null 
+        };
+
+        renderActiveListings();
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    };
+
+    window.toggleFavorite = (id) => {
+        if (favorites.includes(id)) {
+            favorites = favorites.filter(item => item !== id);
+            showToast("Removed from shortlist");
+        } else {
+            favorites.push(id);
+            showToast("Saved to shortlist ❤️");
+        }
+        localStorage.setItem('yp_favorites', JSON.stringify(favorites));
+        updateFavoritesNav();
+        renderActiveListings();
+
+        if (currentOpenProperty && currentOpenProperty.id === id) {
+            updatePDPFavButton();
+        }
+    };
+
+    function updateFavoritesNav() {
+        const count = favorites.length;
+        document.getElementById('navFavText').innerText = `SAVED (${count})`;
+        document.getElementById('navFavIcon').innerText = count > 0 ? '❤️' : '🤍';
+        document.getElementById('wishlistCountText').innerText = `Showing Saved Properties (${count})`;
+    }
+
+    window.toggleFavoritesView = () => {
+        if (isFavoritesOnly) {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+            return;
+        }
+        isFavoritesOnly = true;
+        const banner = document.getElementById('wishlistBanner');
+        const homeBtn = document.getElementById('navHomeBtn');
+        const favBtn = document.getElementById('navFavBtn');
+
+        banner.style.display = 'flex';
+        favBtn.classList.add('active-nav');
+        homeBtn.classList.remove('active-nav');
+
+        renderActiveListings();
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    };
+
+    function renderActiveListings() {
+        let list = db.filter(p => p.isActive !== false);
+
+        if (isFavoritesOnly) list = list.filter(p => favorites.includes(p.id));
+
+        if (quickSearchQuery) {
+            list = list.filter(p => {
+                const tMatch = p.title && p.title.toLowerCase().includes(quickSearchQuery);
+                const sMatch = p.sector && p.sector.toLowerCase().includes(quickSearchQuery);
+                const cMatch = p.pCode && p.pCode.toLowerCase().includes(quickSearchQuery);
+                const bMatch = p.bhk && p.bhk.toLowerCase().includes(quickSearchQuery);
+                return tMatch || sMatch || cMatch || bMatch;
+            });
+        }
+
+        list = list.filter(p => {
+            const matchesCode = activeFilters.pCode === "" || (p.pCode && p.pCode.toUpperCase().includes(activeFilters.pCode));
+            
+            let matchesType = true;
+            if (activeFilters.propertyType.length > 0) {
+                matchesType = activeFilters.propertyType.some(filterType => {
+                    if (filterType === 'Sale') return p.pType === 'Sale' || p.pType === 'Buy';
+                    return p.pType === filterType;
+                });
+            }
+
+            const matchesBHK = activeFilters.bhk.length === 0 || activeFilters.bhk.includes(p.bhk);
+            const matchesSector = activeFilters.sector.length === 0 || activeFilters.sector.includes(p.sector);
+            const propPrice = Number(p.price) || 0;
+            const matchesPrice = propPrice >= activeFilters.priceRange.min && propPrice <= activeFilters.priceRange.max;
+            const matchesFurnish = activeFilters.furnish.length === 0 || activeFilters.furnish.includes(p.furnish);
+            
+            let matchesPossession = true;
+            if (activeFilters.possessionType === 'Immediate') {
+                matchesPossession = (p.status && p.status.toLowerCase().includes('immediate')) || (p.possessionDate && p.possessionDate.toLowerCase().includes('immediate'));
+            } else if (activeFilters.possessionType === 'Specific' && activeFilters.possessionDate) {
+                matchesPossession = (p.possessionDate === activeFilters.possessionDate);
+            }
+
+            return matchesCode && matchesType && matchesBHK && matchesSector && matchesPrice && matchesFurnish && matchesPossession;
+        });
+
+        if (currentSortOrder === 'price-asc') {
+            list.sort((a, b) => Number(a.price || 0) - Number(b.price || 0));
+        } else if (currentSortOrder === 'price-desc') {
+            list.sort((a, b) => Number(b.price || 0) - Number(a.price || 0));
+        } else if (currentSortOrder === 'newest') {
+            list.sort((a, b) => new Date(b.timestamp?.seconds || 0) - new Date(a.timestamp?.seconds || 0));
+        } else if (currentSortOrder === 'hot') {
+            list.sort((a, b) => (b.isHotDeal ? 1 : 0) - (a.isHotDeal ? 1 : 0));
+        }
+
+        render(list);
+    }
+
+    window.openFilters = () => { 
+        history.pushState({ modal: 'filters' }, '');
+        document.getElementById('filterPage').style.display = 'flex'; 
+        window.showTab('propertyType', document.querySelector('.f-tab-btn')); 
+    };
+
+    window.closeFilters = () => { 
+        document.getElementById('filterPage').style.display = 'none';
+        if (history.state && history.state.modal === 'filters') history.back();
+    };
+
+    window.showTab = (key, el) => {
+        document.querySelectorAll('.f-tab-btn').forEach(b => {
+            b.style.color = "var(--text-dim)";
+            b.style.fontWeight = "normal";
+        }); 
+        if (el) {
+            el.style.color = "var(--primary)";
+            el.style.fontWeight = "700";
+        }
+        const opt = document.getElementById('filterOptions');
+        let html = '';
+
+        if(key === 'propertyType') {
+            html += `<input type="text" class="quick-search-box" style="width:100%; margin-bottom:12px;" placeholder="Property Code (e.g. YV01)..." value="${escapeHTML(activeFilters.pCode)}" oninput="window.setCodeFilter(this.value)">`;
+            html += filterData.propertyType.map(v => `<div style="margin-bottom:12px; display:flex; align-items:center; gap:8px; font-size:13px;"><input type="checkbox" style="accent-color:var(--primary);" ${activeFilters.propertyType.includes(v) ? 'checked' : ''} onchange="window.toggleFilter('propertyType','${escapeHTML(v)}')"> ${escapeHTML(v)}</div>`).join('');
+        } else if(key === 'price') {
+            html += filterData.price.map((p) => {
+                const isSelected = activeFilters.priceRange.min === p.min && activeFilters.priceRange.max === p.max;
+                return `<div style="margin-bottom:12px; display:flex; align-items:center; gap:8px; font-size:13px;"><input type="radio" name="pr" style="accent-color:var(--primary);" ${isSelected ? 'checked' : ''} onclick="window.setPrice(${p.min}, ${p.max})"> ${escapeHTML(p.label)}</div>`;
+            }).join('');
+        } else if(key === 'sector') {
+            html += `<input type="text" class="quick-search-box" style="width:100%; margin-bottom:12px;" placeholder="Search Sectors..." oninput="window.filterSectors(this.value)"><div id="sectorList"></div>`;
+            opt.innerHTML = html; 
+            window.renderSectorOptions(filterData.sector); 
+            return;
+        } else if(key === 'possession') {
+            html += `<div style="margin-bottom:12px; display:flex; align-items:center; gap:8px; font-size:13px;"><input type="radio" name="pos" style="accent-color:var(--primary);" ${activeFilters.possessionType === 'All' ? 'checked' : ''} onclick="window.setPossession('All')"> All</div>`;
+            html += `<div style="margin-bottom:12px; display:flex; align-items:center; gap:8px; font-size:13px;"><input type="radio" name="pos" style="accent-color:var(--primary);" ${activeFilters.possessionType === 'Immediate' ? 'checked' : ''} onclick="window.setPossession('Immediate')"> Immediate</div>`;
+            html += `<div style="margin-bottom:12px; display:flex; align-items:center; gap:8px; font-size:13px;"><input type="radio" name="pos" style="accent-color:var(--primary);" ${activeFilters.possessionType === 'Specific' ? 'checked' : ''} onclick="window.setPossession('Specific')"> Specific Date</div>`;
+            html += `<div id="datePickerContainer" style="display: ${activeFilters.possessionType === 'Specific' ? 'block' : 'none'};">
+                        <input type="date" class="quick-search-box" style="width:100%;" id="posDateInput" value="${activeFilters.possessionDate || ''}" onchange="window.setPossessionDate(this.value)">
+                    </div>`;
+        } else {
+            html += filterData[key].map(v => `<div style="margin-bottom:12px; display:flex; align-items:center; gap:8px; font-size:13px;"><input type="checkbox" style="accent-color:var(--primary);" ${activeFilters[key].includes(v) ? 'checked' : ''} onchange="window.toggleFilter('${key}','${escapeHTML(v)}')"> ${escapeHTML(v)}</div>`).join('');
+        }
+        opt.innerHTML = html;
+    };
+
+    window.setCodeFilter = (v) => activeFilters.pCode = v.trim().toUpperCase();
+    window.setPrice = (min, max) => activeFilters.priceRange = { min, max };
+    window.setPossession = (type) => { 
+        activeFilters.possessionType = type; 
+        document.getElementById('datePickerContainer').style.display = (type === 'Specific' ? 'block' : 'none'); 
+    };
+    window.setPossessionDate = (date) => activeFilters.possessionDate = date;
+    window.toggleFilter = (k, v) => { 
+        if(activeFilters[k].includes(v)) activeFilters[k] = activeFilters[k].filter(x => x !== v); 
+        else activeFilters[k].push(v); 
+    };
+
+    window.filterSectors = (query) => {
+        const q = query.toLowerCase().trim();
+        const matched = filterData.sector.filter(s => s.toLowerCase().includes(q));
+        window.renderSectorOptions(matched);
+    };
+
+    window.renderSectorOptions = (list) => { 
+        const c = document.getElementById('sectorList'); 
+        if(c) {
+            c.innerHTML = list.map(v => `
+                <div style="margin-bottom:12px; display:flex; align-items:center; gap:8px; font-size:13px;">
+                    <input type="checkbox" style="accent-color:var(--primary);" ${activeFilters.sector.includes(v) ? 'checked' : ''} onchange="window.toggleFilter('sector','${escapeHTML(v)}')"> ${escapeHTML(v)}
+                </div>`).join(''); 
+        }
+    };
+
+    window.applyFilters = () => {
+        renderActiveListings(); 
+        window.closeFilters();
+    };
+
+    window.clearFilters = () => { 
+        activeFilters = { 
+            propertyType: [], bhk:[], priceRange: { min: 0, max: 999999999 }, 
+            sector:[], furnish:[], tenant:[], pCode: "", possessionType: 'All', possessionDate: null 
+        }; 
+        quickSearchQuery = "";
+        document.getElementById('quickSearchInput').value = "";
+        renderActiveListings(); 
+        window.closeFilters(); 
+    };
+
+    window.openPDP = (id, pushHistory = true) => {
+        const p = db.find(x => x.id === id); 
+        if (!p) return;
+        currentOpenProperty = p;
+
+        if (pushHistory) history.pushState({ modal: 'pdp', id: p.id }, '');
+
+        const isSale = (p.pType || '').toLowerCase() === 'sale' || (p.pType || '').toLowerCase() === 'buy';
+        const typeLabel = isSale ? 'Sale' : 'Rent';
+        document.title = `${p.title || 'Property'} for ${typeLabel} in ${p.sector || 'Gurugram'} | Yuvraj Properties`;
+
+        const pdpEl = document.getElementById('pdpPage');
+        pdpEl.scrollTop = 0;
+
+        const imgs = Array.isArray(p.img) && p.img.length ? p.img : (typeof p.img === 'string' ? p.img.split('\n').filter(Boolean) : []);
+        let sliderHtml = imgs.map(s => `<div class="slide-item"><img src="${escapeHTML(s)}" alt="${escapeHTML(p.title || 'Property View')}"></div>`).join('');
+        
+        const vid = getYouTubeId(p.videoID);
+        if(vid) {
+            sliderHtml += `<div class="slide-item"><iframe id="player" src="https://www.youtube-nocookie.com/embed/${escapeHTML(vid)}?enablejsapi=1&autoplay=1&mute=1&playsinline=1&rel=0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe></div>`;
+        }
+
+        const container = document.getElementById('pdpImgContainer');
+        container.innerHTML = sliderHtml;
+        container.scrollLeft = 0;
+
+        const totalSlides = imgs.length + (vid ? 1 : 0);
+        const counterEl = document.getElementById('pdpImgCounter');
+        counterEl.innerText = totalSlides > 0 ? `1 / ${totalSlides}` : '0 / 0';
+
+        container.onscroll = () => {
+            const width = container.clientWidth || 1;
+            const currentIdx = Math.min(totalSlides, Math.max(1, Math.round(container.scrollLeft / width) + 1));
+            counterEl.innerText = `${currentIdx} / ${totalSlides}`;
+
+            const iframe = document.getElementById('player');
+            if (!iframe || !iframe.contentWindow) return;
+
+            if (currentIdx === totalSlides && vid) {
+                iframe.contentWindow.postMessage('{"event":"command","func":"playVideo","args":""}', '*');
+            } else {
+                iframe.contentWindow.postMessage('{"event":"command","func":"pauseVideo","args":""}', '*');
+            }
+        };
+
+        const priceNum = Number(p.price || 0);
+        document.getElementById('pdpPrice').innerText = "₹" + priceNum.toLocaleString('en-IN');
+        document.getElementById('pdpTitle').innerText = p.title || 'Untitled'; 
+        document.getElementById('pdpCompCode').innerText = p.pCode || 'N/A';
+        document.getElementById('pdpCompType').innerText = typeLabel;
+        document.getElementById('pdpCompBhk').innerText = p.bhk || 'N/A';
+        document.getElementById('pdpCompFurnish').innerText = p.furnish || 'Semi-Furnished';
+        document.getElementById('pdpCompTenant').innerText = p.tenant || 'For All';
+        document.getElementById('pdpCompStatus').innerText = p.status || 'LIVE';
+        document.getElementById('pdpCompPossDate').innerText = p.possessionDate || 'Immediate';
+        document.getElementById('pdpCompSector').innerText = p.sector || 'Gurugram';
+        document.getElementById('pdpCompDesc').innerText = p.desc || 'Verified property listing managed by Rahul Kumar.';
+        document.getElementById('pdpCompFloor').innerText = p.floor || 'Standard Floor';
+        document.getElementById('pdpCompMaint').innerText = p.maintenance || 'Included';
+        
+        document.getElementById('pdpMapBtn').href = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent((p.sector || 'Gurugram') + ' Gurugram Haryana')}`;
+
+        calculateDynamicCommute(p.sector);
+
+        const rentCalcView = document.getElementById('rentCalcView');
+        const saleCalcView = document.getElementById('saleCalcView');
+        const calcHeaderLabel = document.getElementById('calcHeaderLabel');
+
+        if (isSale) {
+            calcHeaderLabel.innerText = "🏦 Purchase & Home Loan EMI Overview";
+            rentCalcView.style.display = "none";
+            saleCalcView.style.display = "block";
+            document.getElementById('cDownVal').innerText = "₹" + Math.round(priceNum * 0.2).toLocaleString('en-IN');
+            document.getElementById('cLoanVal').innerText = "₹" + Math.round(priceNum * 0.8).toLocaleString('en-IN');
+            calculateSaleEMI();
+        } else {
+            calcHeaderLabel.innerText = "💵 Move-In & Cost Overview";
+            saleCalcView.style.display = "none";
+            rentCalcView.style.display = "block";
+            document.getElementById('cRentVal').innerText = "₹" + priceNum.toLocaleString('en-IN');
+            
+            const depositText = p.deposit && String(p.deposit).trim() !== '' ? p.deposit : 'As per agreement';
+            document.getElementById('cDepVal').innerText = depositText;
+            document.getElementById('cMaintVal').innerText = p.maintenance && String(p.maintenance).trim() !== '' ? p.maintenance : 'Included';
+            document.getElementById('cPossVal').innerText = p.possessionDate && String(p.possessionDate).trim() !== '' ? p.possessionDate : 'Immediate';
+        }
+
+        const convBox = document.getElementById('pdpConverterBox');
+        if (p.carpetArea && Number(p.carpetArea) > 0) {
+            currentBaseSqFt = Number(p.carpetArea);
+            document.getElementById('convValText').innerText = `${currentBaseSqFt.toLocaleString('en-IN')} Sq. Ft`;
+            convBox.style.display = 'flex';
+        } else {
+            convBox.style.display = 'none';
+        }
+
+        const amenWrap = document.getElementById('pdpAmenitiesWrapper');
+        const amenGrid = document.getElementById('pdpAmenitiesGrid');
+        if (Array.isArray(p.amenities) && p.amenities.length > 0) {
+            amenGrid.innerHTML = p.amenities.map(a => `<div class="amenity-item">${escapeHTML(a)}</div>`).join('');
+            amenWrap.style.display = 'block';
+        } else {
+            amenWrap.style.display = 'none';
+        }
+
+        const similar = db.filter(x => x.id !== p.id && (x.bhk === p.bhk || x.sector === p.sector)).slice(0, 4);
+        const simContainer = document.getElementById('similarContainer');
+        if (similar.length) {
+            document.getElementById('similarSection').style.display = 'block';
+            simContainer.innerHTML = similar.map(s => {
+                const sThumb = Array.isArray(s.img) && s.img.length ? s.img[0] : (typeof s.img === 'string' ? s.img.split('\n')[0] : 'https://via.placeholder.com/150');
+                const sIsSale = (s.pType || '').toLowerCase() === 'sale' || (s.pType || '').toLowerCase() === 'buy';
+                return `
+                <div class="similar-card" onclick="openPDP('${s.id}')">
+                    <img src="${sThumb}" alt="Similar Flat" loading="lazy" decoding="async">
+                    <div class="similar-card-info">
+                        <b>₹${Number(s.price || 0).toLocaleString('en-IN')}</b>
+                        <span>${s.bhk || 'Flat'} • ${sIsSale ? 'Sale' : 'Rent'}</span>
+                    </div>
+                </div>`;
+            }).join('');
+        } else {
+            document.getElementById('similarSection').style.display = 'none';
+        }
+
+        updatePDPFavButton();
+
+        document.getElementById('pdpBuyBtn').onclick = () => {
+            const shareUrl = `${window.location.origin}${window.location.pathname}?id=${p.id}`;
+            const msg = `*🏡 NEW PROPERTY INQUIRY*%0A` +
+                        `*🆔 ID:* ${encodeURIComponent(p.pCode || 'N/A')}%0A` +
+                        `*📌 Title:* ${encodeURIComponent(p.title || '')}%0A` +
+                        `*💰 Price:* ₹${Number(p.price || 0).toLocaleString('en-IN')}%0A` +
+                        `*📍 Location:* ${encodeURIComponent(p.sector || 'Gurugram')}%0A` +
+                        `*🏢 Purpose:* ${encodeURIComponent(typeLabel)}%0A` +
+                        `*🔗 Link:* ${encodeURIComponent(shareUrl)}%0A` +
+                        `------------------------------%0A` +
+                        `*Message:* Hello Rahul Kumar (Yuvraj Properties), I want to schedule a visit for this listing.`;
+            window.open(`https://wa.me/918595833459?text=${msg}`);
+        };
+
+        pdpEl.style.display = 'flex';
+    };
+
+    function updatePDPFavButton() {
+        if (!currentOpenProperty) return;
+        const btn = document.getElementById('pdpFavBtn');
+        const isFav = favorites.includes(currentOpenProperty.id);
+        btn.innerHTML = isFav ? '❤️ Saved' : '🤍 Save';
+        btn.onclick = () => toggleFavorite(currentOpenProperty.id);
+    }
+
+    window.closePDP = () => {
+        document.getElementById('pdpImgContainer').innerHTML = ""; 
+        document.getElementById('pdpPage').style.display = 'none';
+        currentOpenProperty = null;
+        document.title = "Yuvraj Properties & Developer | Verified Flats, Luxury Builder Floors for Rent & Sale in Gurugram";
+        
+        if (history.state && history.state.modal === 'pdp') history.back();
+    };
+
+    initDB();
+</script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+{
+  "name": "Yuvraj Properties & Developer",
+  "short_name": "Yuvraj Properties",
+  "description": "Verified Flats & Luxury Builder Floors for Rent & Sale in Gurugram by Rahul Kumar",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#020617",
+  "theme_color": "#020617",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/IMG-20260913-182256.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/IMG-20260913-182256.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
